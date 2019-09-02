@@ -1,0 +1,806 @@
+@media only screen and (max-width: 1024px){
+    header{
+        nav{
+            right: 3.5vw;
+            li{
+                width: 7vw;
+                img{
+                    width: 28px;
+                    height: 28px;
+                    transform: translateY(1vw);
+                }
+            }
+            li:last-child{
+                width: 10vw;
+                transform: translateY(.2vw);
+            }
+        }
+    }
+    .content{
+        height: 125vw;
+        .menu-button{
+            top: 20%;
+            a{
+                font-size: 1.8vw;
+                width: 22vw;
+            }
+        }
+        .box-wrapper{
+            width: 90%;
+            .box{
+                height: 20vw;
+            }
+        }
+    }
+    .element-wrap{
+        height: 47vw;
+        .row{
+            .right{
+                h1{
+                    font-size: 29px;
+                    line-height: 1.3;
+                }
+            }
+        }
+    }
+    .data-wrapper{
+         .data-box{
+              .right, .left{
+                   p{
+                    font-size: 17px;
+                   }
+              }
+         }
+    }
+    .integrasi{
+        .wrapper-box{
+            width: 100%;
+            .box-wrap{
+                .box{
+                    height: 28vw;
+                    .wrap-box{
+                        width: 96%;
+                        height: 27vw;
+                        padding: 2% 2%;
+                        position: relative;
+                        .progres{
+                            position: absolute;
+                            width: 98%;
+                            bottom: 2vw;
+                        }
+                        img{
+                            height: 30%;
+                        }
+                    }
+                }
+            }
+            .big-box{
+                .box-left, .box-right{
+                    height: 33vw;
+                    .box{
+                        height: 26vw;
+                    }
+                }
+            }
+        }
+    }
+    .faq{
+        margin-bottom: 10vw;
+        .toggle{
+            width: 90%;
+            .toggle-item{
+                .tampil{
+                    a{
+                        width: 98%;
+                    }
+                }
+            }
+        }
+    }
+    .quest{
+        .tanya{
+            .icon_tanya{
+                margin-top: 5vw;
+            }
+        }
+        .media_sosial{
+            .sosial{
+                width: 60%;
+                .whatsapp, .facebook{
+                    .wa,.fb{
+                        height: 3.5vw;
+                        line-height: 3.5vw;
+                    }
+                }
+            }
+        }
+    }
+    
+}
+@media only screen and  (max-width:912px){
+    header{
+        nav{
+            li:last-child{
+                width: 12vw;
+            }
+        }
+    }
+    .main{
+        .logo{
+            img{
+                width: 12.5%;
+            }
+        }
+        .judul{
+            p{
+                font-size: 4.5vw;
+            }
+        }
+        .info{
+            font-size: 1.9vw;
+        }
+    }
+    .content{
+        height: 140vw;
+        .laptop{
+            top: -18vw;
+        }
+        .box-wrapper{
+            .box{
+                height: 23vw;
+            }
+        }
+    }
+    .element-wrap{
+        .row{
+            .right{
+                h1{
+                    font-size: 27px;
+                    float: right;
+                    width: 90%
+                }
+            }
+            .left{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .data-wrapper{
+        .data-judul{
+             h1{
+                 font-size: 30px;
+             }
+            }
+        }
+    .integrasi{
+        .wrapper-box{
+            .box-wrap{
+                .box{
+                    height: 34vw;
+                    .wrap-box{
+                        height: 33vw;
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width:767px){
+    .wrapper{
+        height: 75.5vw;
+    }
+    .main{
+        height: 69vw;
+        .logo{
+            padding-top: 8vw;
+            img{
+                width: 17.5%;
+            }
+        }
+    }
+    header{
+        nav{
+            top: 3.5vw;
+            li:last-child{
+                display: none;
+            }
+            li{
+                width: 12vw;
+            }
+            .flag{
+                width: 9vw;
+            }
+        }
+    }
+    .content{
+        height: 475vw;
+        .laptop{
+            img{
+                width: 90%;
+                padding: 0;
+            }
+        }
+        .menu-button{
+            width: 90%;
+            top: 7%;
+            padding-top: 12vw;
+            a{
+                font-size: 2.5vw;
+                height: 5vw;
+                line-height: 5vw;
+                width: 25vw;
+            }
+        }
+        .judul-content{
+            top: 7%;
+        }
+        .box-wrapper{
+            width: 98%;
+            top: 5%;
+            padding-top: 13vw;
+            .box{
+                height: 39vw;
+                width: 80%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+            }
+        }
+    }
+    .element-wrap{
+        height: 81vw;
+        .row{
+            .left{
+                float: none;
+                width: 100%;
+                img{
+                    width: 70%;
+                    margin: auto;
+                    display: block;
+                }
+            }
+            .right{
+                float: none;
+                width: 100%;
+                height: 70vw;
+                h1{
+                    float: none;
+                    transform: none;
+                    width: 100%;
+                    font-size: 2.5vw;
+                }
+            }
+        }
+    }
+    .widget-wrap{
+        h2{
+            width: 95%;
+            font-size: 4vw;
+        }
+        .widget-pay{
+            .icon-pay{
+                display: block;
+                width: 90%;
+                height: 12vw;
+                position: relative;
+                transform: translateX(-50%);
+                left: 50%;
+                margin-bottom: 2vw;
+                img{
+                    width: 60%;
+                }
+            }
+        }
+        .widget-vid{
+            #vid{
+                width: 90%;
+            }
+        }
+    }
+    .data-wrapper{
+        height: calc(167vw - 5vw);
+        .data-judul{
+            padding-top: 3vw;
+        }
+    }
+    .data-offer{
+        .judul-offer{
+            h2{
+                font-size: 32px;
+            }
+        }
+        .offer-box{
+            width: 60%;
+            margin-top: 10vw;
+            .offer-data{
+                width: 75%;
+                height: 65vw;
+                top: 60%;
+                .best-seller{
+                    width: 29%;
+                    height: 13vw;
+                    .text-best{
+                        width: 197%;
+                        height: 3vw;
+                        line-height: 3vw;
+                    }
+                }
+                .harga{
+                    margin-top: 3vw;
+                    height: 8vw;
+                    font-size: 39px;
+                }
+                .fitur{
+                    ul{
+                        margin-top: 2vw;  
+                        li{
+                            text-align: left;
+                            height: 5vw;
+                            line-height: 5vw;
+                            padding-left: 3vw;
+                        }  
+                    }
+                }
+                .tombol-offer{
+                    a{
+                        width: 35%;
+                        height: 4vw;
+                        line-height: 4vw;
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .payment{
+        margin-top: 22vw;
+        .pay-judul{
+            margin-bottom: 3vw;
+            h2{
+                font-size: 22px;
+            }
+        }
+        .icon{
+            .payment-icon{
+                display: block;
+                width: 100%;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-bottom: 4vw;
+                img{
+                    width: 20vw;
+                }
+            }   
+        }
+        .icon-all{
+            margin-top: 8vw;
+            img{
+                width: 90%;
+            }
+        }
+    }
+    .integrasi{
+        height: 540vw;
+        .wrapper-box{
+            width: 100%;
+            left: 0;
+            transform: none;
+            .box-wrap{
+                width: 75%;
+                .box{
+                    float: none;
+                    width: 100%;
+                    height: 45vw;
+                    margin-bottom: 3vw;
+                    .wrap-box{
+                        height: 39vw;
+                        img{
+                            height: 60%;
+                            width: 41%;
+                        }
+                        .progres{
+                            bottom: 0;
+                            .bar{
+                                height: 2vw;
+                            }
+                        }
+                    }    
+                }
+            }
+            .big-box{
+                width: 100%;
+                .box-left,.box-right{
+                    float: none;
+                    width: 75%;
+                    height: 43vw;
+                    position: relative;
+                    left: 50.5%;
+                    transform: translateX(-50%);
+                    .box{
+                        height: 43vw;
+                    }
+                }
+            }
+        }
+    }
+    .quest{
+        .media_sosial{
+            margin-bottom: 5vw;
+            .sosial{
+                width: 90%;
+                .facebook,.whatsapp{
+                    .wa, .fb{
+                        height: 4vw;
+                        line-height: 4vw;
+                    }
+                }
+            }
+        }
+    }
+    .data-wrapper{
+        height: calc(850vh - 5vw);
+        // height: calc(950vh - 5vw);
+        .data-judul{
+            margin-bottom: 5vw;
+        }
+        .data-box{
+            height: 77vh;
+            margin-bottom: 20vw;
+            left: 50%;
+            transform: translateX(-50%);
+            .left,.right{
+                float: none;
+                width: 100%;
+                img{
+                    width: 76vw;
+                    height: 70vh;
+                    position: unset;
+                    transform: none;
+                    display: block;
+                    margin: auto;
+                    margin-bottom: 8vw;
+                }
+                .text{
+                    display: block;
+                    margin-bottom: 3vw;
+                    p{
+                        font-family: "Varela Round",Sans-serif;
+                        font-size: 18px;
+                        color: white;
+                        font-weight: 400;
+                        line-height: 3vw;
+                    }
+                }
+                &>p{
+                    display: none;
+                }
+            }
+            .a{
+                display: none;
+            }
+        }
+        .data-box:nth-child{
+            .right:nth-child(1){
+                display: none;  
+            }
+        }
+    }
+    .back{
+        bottom: 5vh;
+    }
+}
+@media only screen and (max-height:500px){
+    .data-wrapper{
+        height: calc(957vh - 5vw);
+    }
+}
+@media only screen and (max-width:414px){
+    .wrapper{
+        height: 70vh;
+        background-size: 140% 100%;
+        background-repeat: no-repeat;
+    }
+    header{
+        nav{
+            li{
+                width: 20vw;
+                padding: 7px 11px;
+                font-size: 3.9vw;
+                float: right;
+            }
+            .flag{
+                img{
+                    display: none;
+                }
+            }
+        }
+    }
+    .main{
+        height:66vh;
+        .judul{
+            width: 98%;
+            p{
+                font-size: 7vw;
+                line-height: 7vw;
+            }
+        }
+        .logo{
+            img{
+                width: 26.5%;
+                margin-top: 8vw;
+            }
+        }
+        .info{
+            font-size: 4vw;
+            width: 90%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            font-weight: 200;
+
+        }
+    }
+    .content{
+        height: 465vh;
+        .laptop{
+            top: -25vw;
+            margin: 0;
+            img{
+                width: 100%;
+            }
+        }
+        .menu-button{
+            top: 7.5%;
+            display: block;
+            .menu-btn{
+                width: 90%;
+                margin-bottom: 1.5vh;
+                height: 6vh;
+                line-height: 6vh;
+                font-size: 4.6vw;
+                font-weight: 500;
+                position: relative;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-left: 0;
+            }
+        }
+        .judul-content{
+            font-size: 5.3vw;
+            top: 5%;
+        }
+        .box-wrapper{
+            width: 100%;
+            left: 0;
+            transform: none;
+            .box{
+                margin: 0;
+                padding: 0;
+                width: 90%;
+                height: 35vh;
+                margin-bottom: 4vh;
+                padding-bottom: 2vh;
+                padding-top: 2vh;
+                padding-left: 1vh;
+                padding-right: 1vh;
+            }
+        }
+    }
+    .element-wrap{
+        height: 65vh;
+        .row{
+            .left{
+                height: 32vh;
+                img{
+                    width: 90%;
+                }
+            }
+            .right{
+                h1{
+                font-size: 4.3vw;
+                }
+            }
+        }
+    }
+    .widget-wrap{
+        .text-why{
+            h2{
+                font-size: 5vw;
+            }
+        }
+    }
+    .data-wrapper{
+        height: calc(489vh - 5vw);
+        .data-judul{
+            padding-top: 8vh;
+            margin-bottom: 8vh;
+            h1{
+                font-size: 22px;
+            }
+        }
+        .data-box{
+            height: 45vh;
+            .left, .right{
+                img{
+                    width: 75vw;
+                    height: 36vh;
+                    margin-bottom: 15vw;
+                }
+                .text{
+                    p{
+                        font-size: 5vw;
+                        line-height: 5vw;
+                    }
+                }
+            }
+
+        }
+    }
+    .data-offer{
+        .judul-offer{
+            h2{
+                font-size: 21px;
+            }
+        }
+        .offer-box{
+            width: 100%;
+            height: 70vh;
+            margin-top: 16vw;
+            .offer-data{
+                width: 80%;
+                height: 80vh;
+                top: 35vh;
+                .best-seller{
+                    width: 40%;
+                    height: 20vh;
+                    .text-best{
+                        height: 6vw;
+                        line-height: 6vw;
+                        font-size: 3vw;
+                    }
+                }
+                .bulan{
+                    padding-top: 17vw;
+                    h2{
+                        font-size: 30px;
+                    }
+                }
+                .harga{
+                    margin-top: 0;
+                    height: 15vw;
+                }
+                .fitur{
+                    margin-top: 3vh;
+                    ul{
+                        width: 90%;
+                        li{
+                            height: 10vw;
+                            line-height: 10vw;
+                            padding-left: 13vw;
+                        }
+                    }
+                }
+                .tombol-offer{
+                    margin-top: 5vw;
+                    a{
+                        width: 62%;
+                        height: 9vw;
+                        line-height: 9vw;
+                    }
+                }
+            }
+        }
+    }
+    .payment{
+        .icon{
+            .payment-icon{
+                margin-bottom: 8vw;
+                img{
+                    width: 30vw;
+                }
+            }
+        }
+        .icon-all{
+            img{
+                width: 100%;
+                height: 9vh;
+            }
+        }
+    }
+    .integrasi{
+        height: 610vh;
+        .judul{
+            margin-bottom: 8vh;
+            h2{
+                font-size: 28px;
+            }
+        }
+        .wrapper-box{
+            .box-wrap{
+                width: 90%;
+                .box{
+                    margin: 0 0 5vh 0;
+                    height: 50vh;
+                    .wrap-box{
+                        height: 30vh;
+                        .progres{
+                            bottom: -14.5vh;
+                            .bar{
+                                height: 2vh;
+                            }
+                        }
+                    }
+                }
+            }
+            .big-box{
+                .box-left,.box-right{
+                    width: 90%;
+                    height: 43vh;
+                    .box{
+                        height: 40vh;
+                    }
+                }
+            }
+        }
+    }
+    .faq{
+        .faq-judul{
+            margin-bottom: 7vh;
+        }
+        .toggle{
+            .toggle-item{
+                margin-bottom: 2vh;
+                .tampil{
+                    padding: 3vh 3vh;
+                    a{
+                        width: 95%;
+                    }
+                }
+            }
+        }
+    }
+    .quest{
+        .tanya{
+            .icon_tanya{
+                i{
+                    font-size: 6.5vw;
+                }
+            }
+        }
+        .media_sosial{
+            .sosial{
+                .facebook,.whatsapp{
+                    float: none;
+                    width: 100%;
+                    margin-bottom: 2vh;
+                    .wa,.fb{
+                        height: 5vh;
+                        line-height: 5vh;
+                    }
+                }
+            }
+        }
+    }
+    footer{
+        width: 98%;
+        height: 10vh;
+        margin-bottom: 8vh;
+        padding: 0 1%;
+        .foot{
+            span{
+                font-size: 12px;
+            }
+        }
+    }
+    .back{
+        height: 8vh;
+        a{
+            height: 5vh;
+            line-height: 5vh;
+            padding: 5px 8vw;
+        }
+    }
+}

@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="icon" href="https://woo-wa.com/wp-content/uploads/2019/05/Logo-Woo-WA-PNG-Berwarna-150px-100x100.png" sizes="32x32">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Woowa - WhatsApp Order Notification & Automatic Reminder</title>
+  <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/view.css">
+  <link rel="stylesheet" href="jquery-ui.css">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/6b55cb2db4.js"></script>
+  
+  
+</head>
+<body>
+  <section class="wrapper">
+    <div class="overlay"></div>
+    <div class="wave">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path class="elementor-shape-fill" opacity="0.33" d="M473,67.3c-203.9,88.3-263.1-34-320.3,0C66,119.1,0,59.7,0,59.7V0h1000v59.7 c0,0-62.1,26.1-94.9,29.3c-32.8,3.3-62.8-12.3-75.8-22.1C806,49.6,745.3,8.7,694.9,4.7S492.4,59,473,67.3z"></path>
+          <path class="elementor-shape-fill" opacity="0.66" d="M734,67.3c-45.5,0-77.2-23.2-129.1-39.1c-28.6-8.7-150.3-10.1-254,39.1 s-91.7-34.4-149.2,0C115.7,118.3,0,39.8,0,39.8V0h1000v36.5c0,0-28.2-18.5-92.1-18.5C810.2,18.1,775.7,67.3,734,67.3z"></path>
+          <path class="elementor-shape-fill" d="M766.1,28.9c-200-57.5-266,65.5-395.1,19.5C242,1.8,242,5.4,184.8,20.6C128,35.8,132.3,44.9,89.9,52.5C28.6,63.7,0,0,0,0 h1000c0,0-9.9,40.9-83.6,48.1S829.6,47,766.1,28.9z"></path>
+          </svg>
+    </div>
+  </section>
+  <header>
+      <nav>
+        <li><a href="">
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+          <span>Login</span>
+        </a></li>
+        <li class="flag"><a href="">
+          <img src="/assets/img/united-kingdom-1.png" alt="">
+        </a></li>
+        <li><a href="">English ($)</a></li>
+      </nav>
+    </header>
+    <section class="main">
+      <div class="logo">
+        <img src="/assets/img/Logo-Woo-WA-PNG-Berwarna-150px.png" alt="">
+      </div>
+      <div class="judul">
+        <p>Notifikasi Order & Reminder  <span style="color: #9b5c8f;">Otomatis</span> via <span style="color: #339966;">WhatsApp</span></p>
+      </div>
+      <div class="info">
+        <p>Cukup Koneksikan WA Kamu ke server Woowa, maka WA Kamu akan ON 24 Jam <br>
+            TANPA HARUS BUKA LAPTOP</p>
+      </div>
+    </section>
+    <section class="content">
+      <div class="laptop">
+        <img src="./assets/img/macbook-and-iphone-x-woowa-1200px-WOOCOM-LOGO.png" alt="">
+      </div>
+      <div class="menu-button">
+        <a href="" class="menu-btn">Demo Admin
+          <i class="fab fa-wordpress"></i>
+        </a>
+        <a href="" class="menu-btn">
+          Demo Notifikasi
+          <i class="fas fa-shopping-cart"></i>
+        </a>
+        <a href="" class="menu-btn">
+          API Docs
+          <i class="fas fa-cogs"></i>
+        </a>
+      </div>
+      <div class="judul-content">
+        <h1>Mengapa Woowa Begitu Powerful ??</h1>
+      </div>
+      <div class="box-wrapper">
+          <div class="box">
+            <img src="/assets/img/add-to-cart-1.png" alt="">
+            <h3>Notifikasi ke Customer Ketika Ada Order Baru</h3>
+            <p>Customer akan mendapatkan notifikasi otomatis via whatsapp secara instan setelah mereka melakukan checkout</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/notepad-1.png" alt="">
+            <h3>Reminder H+ Sekian Jika Belum Transfer</h3>
+            <p>Woowa akan mengirim reminder otomatis via whatsapp kepada customer yang sudah checkout tapi belum transfer</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/shopping-cart-3.png" alt="">
+            <h3>Notifikasi Order Completed</h3>
+            <p>Customer akan mendapatkan notifikasi otomatis via whatsapp secara instan setelah pembayaran mereka terkonfirmasi</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/cross.png" alt="">
+            <h3>Order Cancelled Recovery</h3>
+            <p>Pembeli Anda yang cancel order, akan mendapatkan notifikasi yang bertujuan membuat mereka tetap jadi membeli (pemberian diskon spesial, kupon, dll)</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/shopping-cart-4.png" alt="">
+            <h3>Abandoned Cart Reminder</h3>
+            <p>Pembeli yang meninggalkan keranjang belanja tanpa checkout akan mendapatkan reminder otomatis jika setelah sekian hari tidak checkout</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/delivery-man.png" alt="">
+            <h3>Kirim Nomor Resi</h3>
+            <p>Anda dapat mengirimkan informasi Resi pengiriman kepada WhatsApp customer melalui woocommerce admin atau order notes</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/warning-1.png" alt="">
+            <h3>Pantau Notifikasi yang Tidak Terkirim Melalui Error Log</h3>
+            <p>Pemilik website mendapatkan menu error log untuk mendeteksi alasan dari pesan yang gagal terkirim</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/font-1.png" alt="">
+            <h3>Kustomisasi & Personalisasi Pesan</h3>
+            <p>Template pesan dapat di kustomisasi sesuai gaya bahasa khas toko Anda</p>
+          </div>
+          <div class="box">
+            <img src="/assets/img/photo-3.png" alt="">
+            <h3>Lampirkan gambar pada notifikasi</h3>
+            <p>Lampirkan gambar/file pada notifikasi, dapat berupa kode kupon, pdf, gambar produk, dan lainnya.</p>
+          </div>
+      </div>
+      <div class="wave-shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path class="elementor-shape-fill" d="M421.9,6.5c22.6-2.5,51.5,0.4,75.5,5.3c23.6,4.9,70.9,23.5,100.5,35.7c75.8,32.2,133.7,44.5,192.6,49.7
+          c23.6,2.1,48.7,3.5,103.4-2.5c54.7-6,106.2-25.6,106.2-25.6V0H0v30.3c0,0,72,32.6,158.4,30.5c39.2-0.7,92.8-6.7,134-22.4
+          c21.2-8.1,52.2-18.2,79.7-24.2C399.3,7.9,411.6,7.5,421.9,6.5z"></path>
+          </svg>
+      </div>
+    </section>
+    <section class="element-wrap">
+      <div class="row">
+        <div class="left">
+          <img src="/assets/img/happy-employee-woo-color-500px.png" alt="">
+        </div>
+        <div class="right">
+          <h1>Kini CS Anda TERBEBAS dari Rutinitas Follow-Up Customer yang Saangaaat Melelahkan !</h1>
+        </div>
+      </div>
+    </section>
+    <section class="widget-wrap">
+      <div class="text-why">
+        <h2>Mengapa Perusahaan Besar beralih ke Notifikasi & Reminder WhatsApp??</h2>
+      </div>
+      <div class="widget-pay">
+        <div class="icon-pay">
+          <img src="/assets/img/589a4c2b5aa6293a4aac48c9-1.png" alt="">
+        </div>
+        <div class="icon-pay">
+          <img src="/assets/img/logo-tokopedia.png" alt="">
+        </div>
+        <div class="icon-pay">
+          <img src="/assets/img/logo-uber_9342-500px-png.png" alt="">
+        </div>
+        <div class="icon-pay">
+          <img src="/assets/img/BANK_BRI_logo-500px-png.png" alt="">
+        </div>
+        <div class="icon-pay">
+          <img src="/assets/img/Niagahoster-500px-png.png" alt="">
+        </div>
+      </div>
+      <div class="widget-vid">
+        <video id="vid" src="https://woo-wa.com/wp-content/uploads/2018/11/Perusahaan-yg-sudah-dapat-WA-API-fix.mp4" ></video>
+        
+      </div>
+      <div class="widget-shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 283.5 19.6" preserveAspectRatio="none">
+          <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 18.8 141.8 4.1 283.5 18.8 283.5 0z"></path>
+          <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 12.6 141.8 4 283.5 12.6 283.5 0z"></path>
+          <path class="elementor-shape-fill" style="opacity:0.33" d="M0 0L0 6.4 141.8 4 283.5 6.4 283.5 0z"></path>
+          <path class="elementor-shape-fill" d="M0 0L0 1.2 141.8 4 283.5 1.2 283.5 0z"></path>
+          </svg>
+      </div>
+    </section>
+    <section class="data-wrapper">
+      <div class="data-judul">
+        <h1>Berikut Statistik yang menjadi latar belakangnya:</h1>
+      </div>
+      <div class="data-box">
+        <div class="left">
+          <img src="/assets/img/Whatsapp-reply-time.jpg" alt="">
+          <div class="text">
+              <P>WhatsApp menjadi Media Sosial dengen Response Rate Tertinggi di DUNIA yaitu hampir 60% pesan terjawab &lt;1 menit</P>  
+          </div>
+        </div>
+        <div class="right a">
+          <P>WhatsApp menjadi Media Sosial dengen Response Rate Tertinggi di DUNIA yaitu hampir 60% pesan terjawab &lt;1 menit</P>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left a">
+          <p>Aplikasi Chat masih memiliki Click Rate (Tingkat Klik) yang jauh melampaui email dan bahkan FB Ads</p>
+        </div>
+        <div class="right">
+          <img src="/assets/img/SMS-vs-Email-1.jpeg" alt="">
+          <div class="text"><p>Aplikasi Chat masih memiliki Click Rate (Tingkat Klik) yang jauh melampaui email dan bahkan FB Ads</p></div>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left">
+          <img src="/assets/img/Click-Rate-WA.jpg" alt="">
+          <div class="text">
+              <p>Aplikasi Chat masih memiliki Click Rate (Tingkat Klik) yang jauh melampaui email dan bahkan FB Ads</p>
+          </div>
+        </div>
+        <div class="right a">
+          <p>Aplikasi Chat masih memiliki Click Rate (Tingkat Klik) yang jauh melampaui email dan bahkan FB Ads</p>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left a">
+          <p>Kategori Media Sosial dengan CTR tertinggi dibandingkan Email dan media lain</p>
+        </div>
+        <div class="right">
+          <img src="/assets/img/statistik-click-through-rate-en-stand-2018-08-1.jpg" alt="">
+          <div class="text">
+              <p>Kategori Media Sosial dengan CTR tertinggi dibandingkan Email dan media lain</p>
+          </div>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left">
+          <img src="/assets/img/business-insider-1.png" alt="">
+          <div class="text">
+              <p>Aplikasi Chat dengan aktivitas “stories” terbanyak di DUNIA</p>
+          </div>
+        </div>
+        <div class="right a">
+          <p>Aplikasi Chat dengan aktivitas “stories” terbanyak di DUNIA</p>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left a">
+          <p>Aplikasi Chat dengan pengguna aktif terbanyak di DUNIA</p>
+        </div>
+        <div class="right">
+          <img src="/assets/img/digital-in-2018-in-southeast-asia-part-2-southeast-11-1024-zoom.jpg" alt="">
+          <div class="text">
+              <p>Aplikasi Chat dengan pengguna aktif terbanyak di DUNIA</p>
+          </div>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left">
+          <img src="/assets/img/digital-in-2018-in-southeast-asia-part-2-southeast-63-1024-zoom.jpg" alt="">
+          <div class="text">
+              <p>Aplikasi Chat dengan pengguna aktif terbanyak di INDONESIA</p>
+          </div>
+        </div>
+        <div class="right a">
+          <p>Aplikasi Chat dengan pengguna aktif terbanyak di INDONESIA</p>
+        </div>
+      </div>
+      <div class="data-box">
+        <div class="left a">
+          <p>Media Sosial dengan pengguna aktif per bulan terbanyak di DUNIA yang terus tumbuh</p>
+        </div>
+        <div class="right">
+          <img src="/assets/img/statistik-nutzerzahlen-messenger-vs-social-media-mau-en-stand-2018-02-1-1.jpg" alt="">
+          <div class="text">
+              <p>Media Sosial dengan pengguna aktif per bulan terbanyak di DUNIA yang terus tumbuh</p>
+          </div>
+        </div>
+      </div>
+      <div class="data-shape">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 100" preserveAspectRatio="none">
+          <path class="elementor-shape-fill" d="M0,6V0h1000v100L0,6z"></path>
+          </svg>
+      </div>
+    </section>
+    <section class="data-offer" id="konversi">
+      <div class="judul-offer">
+        <h2>Investasi Terbaikmu untuk Meningkatkan Konversi</h2>
+      </div>
+      <div class="offer-box">
+        <div class="offer-data">
+          <div class="best-seller">
+            <div class="text-best">Best Seller</div>
+          </div>
+          <div class="bulan">
+            <h2>Bulanan</h2>
+          </div>
+          <div class="harga">
+            <span>Rp</span>
+            <span>197</span>
+            <span>rb</span>
+          </div>
+          <div class="fitur">
+            <ul>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Unlimited Domain</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Unlimited Message</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Pakai Nomor Pribadi</span
+                  ></li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>API Documentation</span>
+              </li>
+              <li>
+                <i class="fas fa-check-circle"></i>
+                <span>Advenced Support</span>
+              </li>
+            </ul>
+          </div>
+          <div class="tombol-offer">
+            <a href="">Sign Up</a>
+            <p>7 Hari Garansi Uang Kembali</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="payment">
+      <div class="pay-judul">
+        <h2>Payment di Verifikasi oleh:</h2>
+      </div>
+      <div class="icon">
+          <div class="payment-icon"><img src="/assets/img/midtrans_logo-150px.png" alt=""></div>
+          <div class="payment-icon"><img src="/assets/img/new-logo-ipaymu-no-tagline-150px.png" alt=""></div>
+          <div class="payment-icon"><img src="/assets/img/logo-doku-myshortcart-150px.png" alt=""></div>
+          <div class="payment-icon"><img src="/assets/img/moota-120px.png" alt=""></div>
+      </div>
+      <div class="icon-all">
+        <img src="/assets/img/Long-1000px.png" alt="">
+      </div>
+    </section>
+    <section class="integrasi">
+      <div class="judul">
+        <h2>Integrasi Selanjutnya</h2>
+      </div>
+      <div class="wrapper-box">
+        <div class="box-wrap">
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/woo-completed.png" alt="">
+                <h3>Woocommerce (Completed)</h3>
+                <p>Order Notifications and Automatic WhatsApp Reminder to your Woocommerce's Customers are Ready</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/html-completed.png" alt="">
+                <h3>HTML, PHP, SQL (Completed)</h3>
+                <p>Woowa already integrated to your custom website or web apps (Html, Php, Css, Js, SQL, etc)</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/Elementor-completed.png" alt="">
+                <h3>Elementor (Completed)</h3>
+                <p>Woowa already integrated to Elementor Page Builder especially Form/Contact Widget</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/Caldera-completed.png" alt="">
+                <h3>Caldera Forms (Completed)</h3>
+                <p>Woowa already integrated with Caldera Forms</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/integrate-berdu.png" alt="">
+                <h3>Berdu.id (Completed)</h3>
+                <p>Woowa will be integrated with Berdu.id environment</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/integrate-orderonline.id_.png" alt="">
+                <h3>Orderonline.id (Completed)</h3>
+                <p>Woowa will be integrated with Orderonline.id environment</p>
+                <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar" class="bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/integrate-ngorder.png" alt="">
+                <h3>Ngorder.id (Coming Soon)</h3>
+                <p>Woowa will be integrated with Ngorder.id environment</p>
+                <!-- <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar"></div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/integrate-shopify.png" alt="">
+                <h3>Shopify (Coming Soon)</h3>
+                <p>Woowa will be integrated to Shopify Platform and Apps</p>
+                <!-- <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar"></div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+            <div class="box">
+              <div class="wrap-box">
+                <img src="/assets/img/integrate-EDD.png" alt="">
+                <h3>Easy Digital Downloads (Coming Soon)</h3>
+                <p>Woowa will be integrated to Easy Digital Downloads Environment</p>
+                <!-- <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar"></div>
+                  </div>
+                </div> -->
+              </div>
+            </div>
+        </div>
+        <div class="big-box">
+          <div class="box-left">
+            <div class="box">
+              <img src="/assets/img/integrate-google-contact.png" alt="">
+                <h3>Google Contact (Coming Soon)</h3>
+                <p>Woowa will be able to automatically save your customer's contacts directly to your smartphone or database</p>
+                <!-- <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar"></div>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+          <div class="box-right">
+            <div class="box">
+              <img src="/assets/img/integrate-sms2.png" alt="">
+                <h3>SMS Gateway (Coming Soon)</h3>
+                <p>Woowa will be integrated to SMS Gateway</p>
+                <!-- <div class="progres">
+                  <h3>Progress</h3>
+                  <div id="myProgress">
+                    <div id="progressbar"></div>
+                  </div>
+                </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <div class="faq-judul">
+        <h4>FAQ</h4>
+        <h5>FREQUENTLY ASKED QUESTION</h5>
+      </div>
+      <div class="toggle">
+        <div class="toggle-item" id="klik">
+          <div class="tampil">
+              <a>Apa Itu Woowa?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show">
+              <p>Woowa adalah WhatsApp Serverless API yang berfungsi untuk mengirimkan pesan WhatsApp otomatis, Woowa telah terintegrasi dengan Woocommerce, Web Custom (Html,PHP,dll), Elementor, Caldera Forms, Berdu.id, Orderonline.id, dan platform lainnya)</p>
+          </div>
+        </div>
+        <div class="toggle-item" id="klik1">
+          <div class="tampil">
+              <a>BAGAIMANA CARA KERJA WOOWA ?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show1">
+            <p>Setelah Anda menginstall Plugin Woowa di WordPress Anda atau mengaktifkan woowa di platform yang terintegrasi, maka setiap ada customer yang order di website woocommerce Anda, maka Woowa akan otomatis mengirimkan pesan (dan atau gambar) ke WA customer tentang detail order,
+
+                tidak hanya itu, Woowa juga dapat mengirimkan pesan pengingat otomatis jika setelah sekian hari customer belum kunjung menyelesaikan pembayaran dengan template pesan yang Anda tentukan sendiri.</p>
+          </div>
+        </div>
+        <div class="toggle-item" id="klik2">
+          <div class="tampil">
+              <a>NOMOR SIAPA YANG DIJADIKAN PENGIRIM PESAN?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show2">
+              <p>Woowa terdiri dari 2 pilihan paket, Woowa Basic akan menggunakan nomor operator dari admin Woowa (sedang tidak tersedia), sedangkan paket Woowa Premium akan menggunakan nomor custom/pribadi sesuai keinginan Anda dengan fitur lain yang lebih kaya dari Woowa Basic</p>
+          </div>
+        </div>
+        <div class="toggle-item" id="klik3">
+          <div class="tampil">
+              <a>APAKAH LAYANAN INI RESMI DARI PERUSAHAAN WHATSAPP (FACEBOOK) ?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show3">
+            <p>Tidak, kami adalah penyedia layanan mandiri yang hanya mengotomatisasi aplikasi WA normal untuk mengirim pesan tanpa diketik manual oleh Owner/CS toko Anda</p>
+          </div>
+        </div>
+        <div class="toggle-item" id="klik4">
+          <div class="tampil">
+              <a>APAKAH SAYA DAPAT MENGIRIM PESAN MASAL (BROADCAST) ?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show4">
+              <p>Tidak ! Layanan ini bukan ditujukan untuk melakukan SPAM/mengirim pesan acak yang tidak diinginkan oleh penerima (Unsolicited Message).</p>
+          </div>
+        </div>
+        <div class="toggle-item" id="klik5">
+          <div class="tampil">
+              <a>JIKA SAYA MENGGUNAKAN NOMOR PRIBADI, APAKAH AKUN WA SAYA DAPAT TERBLOKIR (BANNED) ?</a>
+              <div class="icon">
+                <span>
+                  <i class="fas fa-caret-right"></i>
+                </span>
+              </div>
+          </div>
+          <div class="toggle-show" id="show5">
+            <p>Sebagaimana layaknya pengiriman pesan WA ke orang yang belum Menyimpan/save kontak Anda, maka risiko tersebut masih tetap ada jika dalam jumlah yang cukup banyak customer yang menerima pesan Anda baik sengaja/tidak sengaja klik ‘spam’ atau ‘report’ di dalam pesan yang Anda kirim walaupun <b>kemungkinannya sangat kecil</b> apalagi jika Anda menggunakan <span style="color: #339966;"><em><a style="color: #339966;" href="https://play.google.com/store/apps/details?id=com.whatsapp.w4b&amp;hl=en" target="_blank" rel="noopener">WhatsApp for Business</a></em></span>,</p>
+            <p>Risiko ini kami makin perkecil lagi dengan memberi opsi kepada Anda agar menyertakan checklist di halaman checkout Toko Anda yang isinya meminta persetujuan untuk mengirim detail order ke akun whatsapp customer.</p>
+          </div>
+        </div>        
+      </div>
+    </section>
+    <section class="quest">
+      <div class="tanya">
+        <div class="judul_tanya">
+          <h2>Ada Pertanyaan?</h2>
+          <div class="icon_tanya">
+            <i class="fa fa-caret-down" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+      <div class="media_sosial">
+        <div class="sosial">
+          <div class="whatsapp">
+            <a class="wa" href="https://api.whatsapp.com/send?phone=6285974568372&amp;text=Hi Yudha, Saya ingin bertanya tentang Woowa" target="_blank" data-text="Go!">
+              <span>
+                <i class="fab fa-whatsapp"></i>
+              Chat WhatsApp
+              </span>
+              </a>
+          </div>
+          <div class="facebook">
+            <a class="fb" href="https://m.me/yudha.febrian.7" target="_blank" data-text="Go!">
+              <span>
+              <i class="fa fa-facebook-square eael-creative-button-icon-left" aria-hidden="true"></i>
+              Chat Facebook
+              </span>
+              </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="foot">
+        <span>Made With</span>
+        <span><i class="fa fa-heart" aria-hidden="true"></i></span>
+        <span>by Woowa @2019 All Right Reserved</span>
+      </div>
+    </footer>
+    <section class="back">
+      <a href="#konversi">
+        <span><i class="fa fa-line-chart" aria-hidden="true"></i></span>
+        <span>Naikan Konversi Toko Saya !</span>
+      </a>
+    </section>
+
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="jquery-ui.js"></script>
+    <script src="main.js"></script>
+    <script>
+        var sc = screen.width;
+        var vid = document.getElementById('vid');
+        if(sc<= 737){
+         vid.play();
+         vid.loop= true;
+        }
+        var bd = document.getElementsByTagName('body');
+        var a  = bd.scrollTop;
+        console.log(a);
+    </script>
+    
+</body>
+</html>
