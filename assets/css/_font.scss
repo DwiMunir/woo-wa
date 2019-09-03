@@ -1,0 +1,20 @@
+@font-face{
+    font-family: 'fredoka';
+    src: url('/assets/font/FredokaOne-Regular.ttf');
+}
+@font-face{
+    font-family: 'varel';
+    src: url("/assets/font/VarelaRound-Regular.ttf");
+}
+@font-face{
+    font-family: 'quick';
+    src: url("/assets/font/Quicksand_Book.otf");
+}
+@font-face{
+    font-family: "muli";
+    src: url("/assets/font/Muli-Regular.ttf");
+}
+$fred : "fredoka";
+$var  : "varel";
+$q    : "quick";
+$m    : "muli";

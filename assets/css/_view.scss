@@ -36,6 +36,10 @@
         height: 47vw;
         .row{
             .right{
+                img{
+                    width: 100%;
+                    height: auto;
+                }
                 h1{
                     font-size: 29px;
                     line-height: 1.3;
@@ -69,7 +73,7 @@
                             bottom: 2vw;
                         }
                         img{
-                            height: 30%;
+                            height: auto;
                         }
                     }
                 }
@@ -399,7 +403,7 @@
                         height: 39vw;
                         img{
                             height: 60%;
-                            width: 41%;
+                            width: auto;
                         }
                         .progres{
                             bottom: 0;
@@ -441,13 +445,13 @@
         }
     }
     .data-wrapper{
-        height: calc(850vh - 5vw);
+        height: calc(709vh - 5vw);
         // height: calc(950vh - 5vw);
         .data-judul{
             margin-bottom: 5vw;
         }
         .data-box{
-            height: 77vh;
+            height: 60vh;
             margin-bottom: 20vw;
             left: 50%;
             transform: translateX(-50%);
@@ -455,8 +459,8 @@
                 float: none;
                 width: 100%;
                 img{
-                    width: 76vw;
-                    height: 70vh;
+                    width: 100%;
+                    height: auto;
                     position: unset;
                     transform: none;
                     display: block;
@@ -471,7 +475,7 @@
                         font-size: 18px;
                         color: white;
                         font-weight: 400;
-                        line-height: 3vw;
+                        line-height: 5vw;
                     }
                 }
                 &>p{
@@ -622,11 +626,11 @@
             }
         }
         .data-box{
-            height: 45vh;
+            height: 36vh;
             .left, .right{
                 img{
-                    width: 75vw;
-                    height: 36vh;
+                    width: 100%;
+                    height: auto;
                     margin-bottom: 15vw;
                 }
                 .text{

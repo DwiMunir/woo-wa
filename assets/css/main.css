@@ -1,3 +1,43 @@
+@font-face {
+  font-family: 'fredoka';
+  src: url("/assets/font/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'varel';
+  src: url("/assets/font/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'quick';
+  src: url("/assets/font/Quicksand_Book.otf");
+}
+
+@font-face {
+  font-family: "muli";
+  src: url("/assets/font/Muli-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'fredoka';
+  src: url("/assets/font/FredokaOne-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'varel';
+  src: url("/assets/font/VarelaRound-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'quick';
+  src: url("/assets/font/Quicksand_Book.otf");
+}
+
+@font-face {
+  font-family: "muli";
+  src: url("/assets/font/Muli-Regular.ttf");
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -119,7 +159,7 @@ header nav li:last-child a {
 .main .judul {
   text-align: center;
   margin-top: 1vw;
-  font-family: 'Fredoka One', sans-serif;
+  font-family: "fredoka";
   font-size: 3.5vw;
   line-height: 5vw;
   left: 50%;
@@ -133,7 +173,7 @@ header nav li:last-child a {
   text-align: center;
   margin-top: 2.3vw;
   font-size: 1.4vw;
-  font-family: 'Fredoka One', sans-serif;
+  font-family: "fredoka";
 }
 
 .content {
@@ -154,7 +194,6 @@ header nav li:last-child a {
   display: block;
   margin: auto auto;
   padding-left: 2vw;
-  vertical-align: middle;
 }
 
 .content .menu-button {
@@ -234,7 +273,7 @@ header nav li:last-child a {
   border-radius: 10px;
   text-align: center;
   padding: 2% 1% 3% 1%;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
 }
 
 .content .box-wrapper .box img {
@@ -295,7 +334,7 @@ header nav li:last-child a {
   font-size: 40px;
   position: relative;
   top: 40%;
-  font-family: 'Varela Round', sans-serif;
+  font-family: "varel";
   -webkit-transform: translate(5%);
           transform: translate(5%);
   color: #070707;
@@ -315,7 +354,7 @@ header nav li:last-child a {
   display: block;
   width: 60%;
   margin: auto auto;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   line-height: 1;
   font-weight: 600;
@@ -399,7 +438,7 @@ header nav li:last-child a {
 .data-wrapper .data-judul h1 {
   color: white;
   text-align: center;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 35px;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
@@ -446,7 +485,7 @@ header nav li:last-child a {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 24px;
   color: white;
   font-weight: 400;
@@ -469,7 +508,7 @@ header nav li:last-child a {
   display: block;
   width: 90%;
   padding-top: 2vw;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 24px;
   color: white;
   font-weight: 400;
@@ -515,7 +554,7 @@ header nav li:last-child a {
 
 .data-offer .judul-offer h2 {
   text-align: center;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 37px;
   line-height: 1;
 }
@@ -528,7 +567,8 @@ header nav li:last-child a {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  font-family: "Quicksand",Sans-serif;
+  font-family: "quick";
+  font-weight: 500;
 }
 
 .data-offer .offer-box .offer-data {
@@ -658,7 +698,7 @@ header nav li:last-child a {
 }
 
 .data-offer .offer-box .offer-data .tombol-offer p {
-  font-family: "Muli",Sans-serif;
+  font-family: "muli";
   font-size: 12px;
   line-height: 1.6em;
   margin: 13px;
@@ -673,7 +713,7 @@ header nav li:last-child a {
 }
 
 .payment .pay-judul h2 {
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 17px;
   font-weight: 400;
   color: #7a7a7a;
@@ -726,7 +766,7 @@ header nav li:last-child a {
 .integrasi .judul h2 {
   text-align: center;
   color: #474747;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 35px;
   font-weight: 700;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
@@ -770,7 +810,7 @@ header nav li:last-child a {
   border-radius: 10px;
   padding-bottom: 5%;
   text-align: center;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
 }
 
 .integrasi .wrapper-box .box-wrap .box .wrap-box {
@@ -844,7 +884,7 @@ header nav li:last-child a {
   border-radius: 10px;
   padding-bottom: 3vw;
   text-align: center;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   padding: 2% 4% 6% 4%;
 }
 
@@ -890,14 +930,14 @@ header nav li:last-child a {
 }
 
 .faq .faq-judul h4 {
-  font-family: "Fredoka One",Sans-serif;
+  font-family: "fredoka";
   font-size: 37px;
   font-weight: 600;
   line-height: 1.2em;
 }
 
 .faq .faq-judul h5 {
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 15px;
   line-height: 1;
   margin-top: 1vw;
@@ -943,7 +983,7 @@ header nav li:last-child a {
   width: 80%;
   color: #002b54;
   text-decoration: none;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
@@ -963,7 +1003,7 @@ header nav li:last-child a {
 .faq .toggle .toggle-item .toggle-show {
   border-bottom-color: rgba(191, 191, 191, 0);
   color: #000;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-size: 15px;
   font-weight: 300;
   line-height: 1.8em;
@@ -987,7 +1027,7 @@ header nav li:last-child a {
 
 .quest .tanya h2 {
   color: #002b54;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   text-transform: capitalize;
   font-weight: 600;
   line-height: 1;
@@ -1015,7 +1055,7 @@ header nav li:last-child a {
   position: relative;
   width: 50%;
   left: 50%;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
@@ -1045,6 +1085,17 @@ header nav li:last-child a {
   border-radius: 5px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
           box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.quest .media_sosial .sosial .whatsapp .wa span svg, .quest .media_sosial .sosial .whatsapp .fb span svg, .quest .media_sosial .sosial .facebook .wa span svg, .quest .media_sosial .sosial .facebook .fb span svg {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.quest .media_sosial .sosial .whatsapp .wa span svg path, .quest .media_sosial .sosial .whatsapp .fb span svg path, .quest .media_sosial .sosial .facebook .wa span svg path, .quest .media_sosial .sosial .facebook .fb span svg path {
+  fill: white;
 }
 
 .quest .media_sosial .sosial .whatsapp .wa:hover::before, .quest .media_sosial .sosial .whatsapp .fb:hover::before, .quest .media_sosial .sosial .facebook .wa:hover::before, .quest .media_sosial .sosial .facebook .fb:hover::before {
@@ -1164,6 +1215,10 @@ footer .foot span {
   font-size: 14px;
 }
 
+footer .foot span svg path {
+  fill: red;
+}
+
 footer .foot span:nth-child(2) {
   color: red;
   font-size: 20px;
@@ -1182,6 +1237,7 @@ footer .foot span:nth-child(2) {
 
 .back a {
   display: block;
+  position: relative;
   color: #000;
   fill: #000;
   float: right;
@@ -1195,7 +1251,7 @@ footer .foot span:nth-child(2) {
   padding: 5px 2vw;
   background: #ffc171;
   border-radius: 30px;
-  font-family: "Varela Round",Sans-serif;
+  font-family: "varel";
   font-weight: 700;
   font-size: 15px;
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
@@ -1204,5 +1260,692 @@ footer .foot span:nth-child(2) {
 
 .back a span {
   float: right;
+  height: 3vw;
 }
-/*# sourceMappingURL=style.css.map */
+
+@media only screen and (max-width: 1024px) {
+  header nav {
+    right: 3.5vw;
+  }
+  header nav li {
+    width: 7vw;
+  }
+  header nav li img {
+    width: 28px;
+    height: 28px;
+    -webkit-transform: translateY(1vw);
+            transform: translateY(1vw);
+  }
+  header nav li:last-child {
+    width: 10vw;
+    -webkit-transform: translateY(0.2vw);
+            transform: translateY(0.2vw);
+  }
+  .content {
+    height: 125vw;
+  }
+  .content .menu-button {
+    top: 20%;
+  }
+  .content .menu-button a {
+    font-size: 1.8vw;
+    width: 22vw;
+  }
+  .content .box-wrapper {
+    width: 90%;
+  }
+  .content .box-wrapper .box {
+    height: 20vw;
+  }
+  .element-wrap {
+    height: 47vw;
+  }
+  .element-wrap .row .right img {
+    width: 100%;
+    height: auto;
+  }
+  .element-wrap .row .right h1 {
+    font-size: 29px;
+    line-height: 1.3;
+  }
+  .data-wrapper .data-box .right p, .data-wrapper .data-box .left p {
+    font-size: 17px;
+  }
+  .integrasi .wrapper-box {
+    width: 100%;
+  }
+  .integrasi .wrapper-box .box-wrap .box {
+    height: 28vw;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box {
+    width: 96%;
+    height: 27vw;
+    padding: 2% 2%;
+    position: relative;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box .progres {
+    position: absolute;
+    width: 98%;
+    bottom: 2vw;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box img {
+    height: auto;
+  }
+  .integrasi .wrapper-box .big-box .box-left, .integrasi .wrapper-box .big-box .box-right {
+    height: 33vw;
+  }
+  .integrasi .wrapper-box .big-box .box-left .box, .integrasi .wrapper-box .big-box .box-right .box {
+    height: 26vw;
+  }
+  .faq {
+    margin-bottom: 10vw;
+  }
+  .faq .toggle {
+    width: 90%;
+  }
+  .faq .toggle .toggle-item .tampil a {
+    width: 98%;
+  }
+  .quest .tanya .icon_tanya {
+    margin-top: 5vw;
+  }
+  .quest .media_sosial .sosial {
+    width: 60%;
+  }
+  .quest .media_sosial .sosial .whatsapp .wa, .quest .media_sosial .sosial .whatsapp .fb, .quest .media_sosial .sosial .facebook .wa, .quest .media_sosial .sosial .facebook .fb {
+    height: 3.5vw;
+    line-height: 3.5vw;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  header nav li:last-child {
+    width: 12vw;
+  }
+  .main .logo img {
+    width: 12.5%;
+  }
+  .main .judul p {
+    font-size: 4.5vw;
+  }
+  .main .info {
+    font-size: 1.9vw;
+  }
+  .content {
+    height: 140vw;
+  }
+  .content .laptop {
+    top: -18vw;
+  }
+  .content .box-wrapper .box {
+    height: 23vw;
+  }
+  .element-wrap .row .right h1 {
+    font-size: 27px;
+    float: right;
+    width: 90%;
+  }
+  .element-wrap .row .left img {
+    width: 100%;
+  }
+  .data-wrapper .data-judul h1 {
+    font-size: 30px;
+  }
+  .integrasi .wrapper-box .box-wrap .box {
+    height: 34vw;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box {
+    height: 33vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .wrapper {
+    height: 75.5vw;
+  }
+  .main {
+    height: 69vw;
+  }
+  .main .logo {
+    padding-top: 8vw;
+  }
+  .main .logo img {
+    width: 17.5%;
+  }
+  header nav {
+    top: 3.5vw;
+  }
+  header nav li:last-child {
+    display: none;
+  }
+  header nav li {
+    width: 12vw;
+  }
+  header nav .flag {
+    width: 9vw;
+  }
+  .content {
+    height: 475vw;
+  }
+  .content .laptop img {
+    width: 90%;
+    padding: 0;
+  }
+  .content .menu-button {
+    width: 90%;
+    top: 7%;
+    padding-top: 12vw;
+  }
+  .content .menu-button a {
+    font-size: 2.5vw;
+    height: 5vw;
+    line-height: 5vw;
+    width: 25vw;
+  }
+  .content .judul-content {
+    top: 7%;
+  }
+  .content .box-wrapper {
+    width: 98%;
+    top: 5%;
+    padding-top: 13vw;
+  }
+  .content .box-wrapper .box {
+    height: 39vw;
+    width: 80%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .element-wrap {
+    height: 81vw;
+  }
+  .element-wrap .row .left {
+    float: none;
+    width: 100%;
+  }
+  .element-wrap .row .left img {
+    width: 70%;
+    margin: auto;
+    display: block;
+  }
+  .element-wrap .row .right {
+    float: none;
+    width: 100%;
+    height: 70vw;
+  }
+  .element-wrap .row .right h1 {
+    float: none;
+    -webkit-transform: none;
+            transform: none;
+    width: 100%;
+    font-size: 2.5vw;
+  }
+  .widget-wrap h2 {
+    width: 95%;
+    font-size: 4vw;
+  }
+  .widget-wrap .widget-pay .icon-pay {
+    display: block;
+    width: 90%;
+    height: 12vw;
+    position: relative;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    left: 50%;
+    margin-bottom: 2vw;
+  }
+  .widget-wrap .widget-pay .icon-pay img {
+    width: 60%;
+  }
+  .widget-wrap .widget-vid #vid {
+    width: 90%;
+  }
+  .data-wrapper {
+    height: calc(167vw - 5vw);
+  }
+  .data-wrapper .data-judul {
+    padding-top: 3vw;
+  }
+  .data-offer .judul-offer h2 {
+    font-size: 32px;
+  }
+  .data-offer .offer-box {
+    width: 60%;
+    margin-top: 10vw;
+  }
+  .data-offer .offer-box .offer-data {
+    width: 75%;
+    height: 65vw;
+    top: 60%;
+  }
+  .data-offer .offer-box .offer-data .best-seller {
+    width: 29%;
+    height: 13vw;
+  }
+  .data-offer .offer-box .offer-data .best-seller .text-best {
+    width: 197%;
+    height: 3vw;
+    line-height: 3vw;
+  }
+  .data-offer .offer-box .offer-data .harga {
+    margin-top: 3vw;
+    height: 8vw;
+    font-size: 39px;
+  }
+  .data-offer .offer-box .offer-data .fitur ul {
+    margin-top: 2vw;
+  }
+  .data-offer .offer-box .offer-data .fitur ul li {
+    text-align: left;
+    height: 5vw;
+    line-height: 5vw;
+    padding-left: 3vw;
+  }
+  .data-offer .offer-box .offer-data .tombol-offer a {
+    width: 35%;
+    height: 4vw;
+    line-height: 4vw;
+    font-weight: 600;
+  }
+  .payment {
+    margin-top: 22vw;
+  }
+  .payment .pay-judul {
+    margin-bottom: 3vw;
+  }
+  .payment .pay-judul h2 {
+    font-size: 22px;
+  }
+  .payment .icon .payment-icon {
+    display: block;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-bottom: 4vw;
+  }
+  .payment .icon .payment-icon img {
+    width: 20vw;
+  }
+  .payment .icon-all {
+    margin-top: 8vw;
+  }
+  .payment .icon-all img {
+    width: 90%;
+  }
+  .integrasi {
+    height: 540vw;
+  }
+  .integrasi .wrapper-box {
+    width: 100%;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .integrasi .wrapper-box .box-wrap {
+    width: 75%;
+  }
+  .integrasi .wrapper-box .box-wrap .box {
+    float: none;
+    width: 100%;
+    height: 45vw;
+    margin-bottom: 3vw;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box {
+    height: 39vw;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box img {
+    height: 60%;
+    width: auto;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box .progres {
+    bottom: 0;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box .progres .bar {
+    height: 2vw;
+  }
+  .integrasi .wrapper-box .big-box {
+    width: 100%;
+  }
+  .integrasi .wrapper-box .big-box .box-left, .integrasi .wrapper-box .big-box .box-right {
+    float: none;
+    width: 75%;
+    height: 43vw;
+    position: relative;
+    left: 50.5%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .integrasi .wrapper-box .big-box .box-left .box, .integrasi .wrapper-box .big-box .box-right .box {
+    height: 43vw;
+  }
+  .quest .media_sosial {
+    margin-bottom: 5vw;
+  }
+  .quest .media_sosial .sosial {
+    width: 90%;
+  }
+  .quest .media_sosial .sosial .facebook .wa, .quest .media_sosial .sosial .facebook .fb, .quest .media_sosial .sosial .whatsapp .wa, .quest .media_sosial .sosial .whatsapp .fb {
+    height: 4vw;
+    line-height: 4vw;
+  }
+  .data-wrapper {
+    height: calc(709vh - 5vw);
+  }
+  .data-wrapper .data-judul {
+    margin-bottom: 5vw;
+  }
+  .data-wrapper .data-box {
+    height: 60vh;
+    margin-bottom: 20vw;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+  }
+  .data-wrapper .data-box .left, .data-wrapper .data-box .right {
+    float: none;
+    width: 100%;
+  }
+  .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
+    width: 100%;
+    height: auto;
+    position: unset;
+    -webkit-transform: none;
+            transform: none;
+    display: block;
+    margin: auto;
+    margin-bottom: 8vw;
+  }
+  .data-wrapper .data-box .left .text, .data-wrapper .data-box .right .text {
+    display: block;
+    margin-bottom: 3vw;
+  }
+  .data-wrapper .data-box .left .text p, .data-wrapper .data-box .right .text p {
+    font-family: "Varela Round",Sans-serif;
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+    line-height: 5vw;
+  }
+  .data-wrapper .data-box .left > p, .data-wrapper .data-box .right > p {
+    display: none;
+  }
+  .data-wrapper .data-box .a {
+    display: none;
+  }
+  .data-wrapper .data-box:nth-child .right:nth-child(1) {
+    display: none;
+  }
+  .back {
+    bottom: 5vh;
+  }
+}
+
+@media only screen and (max-height: 500px) {
+  .data-wrapper {
+    height: calc(957vh - 5vw);
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .wrapper {
+    height: 70vh;
+    background-size: 140% 100%;
+    background-repeat: no-repeat;
+  }
+  header nav li {
+    width: 20vw;
+    padding: 7px 11px;
+    font-size: 3.9vw;
+    float: right;
+  }
+  header nav .flag img {
+    display: none;
+  }
+  .main {
+    height: 66vh;
+  }
+  .main .judul {
+    width: 98%;
+  }
+  .main .judul p {
+    font-size: 7vw;
+    line-height: 7vw;
+  }
+  .main .logo img {
+    width: 26.5%;
+    margin-top: 8vw;
+  }
+  .main .info {
+    font-size: 4vw;
+    width: 90%;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    font-weight: 200;
+  }
+  .content {
+    height: 465vh;
+  }
+  .content .laptop {
+    top: -25vw;
+    margin: 0;
+  }
+  .content .laptop img {
+    width: 100%;
+  }
+  .content .menu-button {
+    top: 7.5%;
+    display: block;
+  }
+  .content .menu-button .menu-btn {
+    width: 90%;
+    margin-bottom: 1.5vh;
+    height: 6vh;
+    line-height: 6vh;
+    font-size: 4.6vw;
+    font-weight: 500;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+            transform: translateX(-50%);
+    margin-left: 0;
+  }
+  .content .judul-content {
+    font-size: 5.3vw;
+    top: 5%;
+  }
+  .content .box-wrapper {
+    width: 100%;
+    left: 0;
+    -webkit-transform: none;
+            transform: none;
+  }
+  .content .box-wrapper .box {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    height: 35vh;
+    margin-bottom: 4vh;
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+  }
+  .element-wrap {
+    height: 65vh;
+  }
+  .element-wrap .row .left {
+    height: 32vh;
+  }
+  .element-wrap .row .left img {
+    width: 90%;
+  }
+  .element-wrap .row .right h1 {
+    font-size: 4.3vw;
+  }
+  .widget-wrap .text-why h2 {
+    font-size: 5vw;
+  }
+  .data-wrapper {
+    height: calc(489vh - 5vw);
+  }
+  .data-wrapper .data-judul {
+    padding-top: 8vh;
+    margin-bottom: 8vh;
+  }
+  .data-wrapper .data-judul h1 {
+    font-size: 22px;
+  }
+  .data-wrapper .data-box {
+    height: 36vh;
+  }
+  .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15vw;
+  }
+  .data-wrapper .data-box .left .text p, .data-wrapper .data-box .right .text p {
+    font-size: 5vw;
+    line-height: 5vw;
+  }
+  .data-offer .judul-offer h2 {
+    font-size: 21px;
+  }
+  .data-offer .offer-box {
+    width: 100%;
+    height: 70vh;
+    margin-top: 16vw;
+  }
+  .data-offer .offer-box .offer-data {
+    width: 80%;
+    height: 80vh;
+    top: 35vh;
+  }
+  .data-offer .offer-box .offer-data .best-seller {
+    width: 40%;
+    height: 20vh;
+  }
+  .data-offer .offer-box .offer-data .best-seller .text-best {
+    height: 6vw;
+    line-height: 6vw;
+    font-size: 3vw;
+  }
+  .data-offer .offer-box .offer-data .bulan {
+    padding-top: 17vw;
+  }
+  .data-offer .offer-box .offer-data .bulan h2 {
+    font-size: 30px;
+  }
+  .data-offer .offer-box .offer-data .harga {
+    margin-top: 0;
+    height: 15vw;
+  }
+  .data-offer .offer-box .offer-data .fitur {
+    margin-top: 3vh;
+  }
+  .data-offer .offer-box .offer-data .fitur ul {
+    width: 90%;
+  }
+  .data-offer .offer-box .offer-data .fitur ul li {
+    height: 10vw;
+    line-height: 10vw;
+    padding-left: 13vw;
+  }
+  .data-offer .offer-box .offer-data .tombol-offer {
+    margin-top: 5vw;
+  }
+  .data-offer .offer-box .offer-data .tombol-offer a {
+    width: 62%;
+    height: 9vw;
+    line-height: 9vw;
+  }
+  .payment .icon .payment-icon {
+    margin-bottom: 8vw;
+  }
+  .payment .icon .payment-icon img {
+    width: 30vw;
+  }
+  .payment .icon-all img {
+    width: 100%;
+    height: 9vh;
+  }
+  .integrasi {
+    height: 610vh;
+  }
+  .integrasi .judul {
+    margin-bottom: 8vh;
+  }
+  .integrasi .judul h2 {
+    font-size: 28px;
+  }
+  .integrasi .wrapper-box .box-wrap {
+    width: 90%;
+  }
+  .integrasi .wrapper-box .box-wrap .box {
+    margin: 0 0 5vh 0;
+    height: 50vh;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box {
+    height: 30vh;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box .progres {
+    bottom: -14.5vh;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box .progres .bar {
+    height: 2vh;
+  }
+  .integrasi .wrapper-box .big-box .box-left, .integrasi .wrapper-box .big-box .box-right {
+    width: 90%;
+    height: 43vh;
+  }
+  .integrasi .wrapper-box .big-box .box-left .box, .integrasi .wrapper-box .big-box .box-right .box {
+    height: 40vh;
+  }
+  .faq .faq-judul {
+    margin-bottom: 7vh;
+  }
+  .faq .toggle .toggle-item {
+    margin-bottom: 2vh;
+  }
+  .faq .toggle .toggle-item .tampil {
+    padding: 3vh 3vh;
+  }
+  .faq .toggle .toggle-item .tampil a {
+    width: 95%;
+  }
+  .quest .tanya .icon_tanya i {
+    font-size: 6.5vw;
+  }
+  .quest .media_sosial .sosial .facebook, .quest .media_sosial .sosial .whatsapp {
+    float: none;
+    width: 100%;
+    margin-bottom: 2vh;
+  }
+  .quest .media_sosial .sosial .facebook .wa, .quest .media_sosial .sosial .facebook .fb, .quest .media_sosial .sosial .whatsapp .wa, .quest .media_sosial .sosial .whatsapp .fb {
+    height: 5vh;
+    line-height: 5vh;
+  }
+  footer {
+    width: 98%;
+    height: 10vh;
+    margin-bottom: 8vh;
+    padding: 0 1%;
+  }
+  footer .foot span {
+    font-size: 12px;
+  }
+  .back {
+    height: 8vh;
+  }
+  .back a {
+    height: 5vh;
+    line-height: 5vh;
+    padding: 5px 8vw;
+  }
+}
+/*# sourceMappingURL=main.css.map */

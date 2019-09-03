@@ -108,7 +108,7 @@ $(document).ready(function(){
       var val = 0;
       var interval = setInterval(function(){
         val +=1;
-        $('.bar').progressbar({value:80});
+        $('.bar').progressbar({value:100});
       },0.002);
     })
     
