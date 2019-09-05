@@ -188,7 +188,8 @@ header{
             border-radius: 10px;
             text-align: center;
             padding: 2% 1% 3% 1%; 
-            font-family: $q            img{
+            font-family: $q;
+            img{
                 width: 28%;
                 display: block;
                 margin: auto auto;
@@ -237,7 +238,8 @@ header{
                 font-size: 40px;
                 position: relative;
                 top: 40%;
-                font-family: $q                transform: translate(5%);
+                font-family: $q;
+                transform: translate(5%);
                 color: #070707;
                 font-weight: 600;
                 line-height: 1;
@@ -323,7 +325,8 @@ header{
         h1{
             color: white;
             text-align: center;
-            font-family: $q            font-size: 35px;
+            font-family: $q;
+            font-size: 35px;
             text-shadow: 0px 0px 10px rgba(0,0,0,.3);
         }
     }
@@ -359,7 +362,8 @@ header{
                 top: 50%;
                 left: 50%;
                 transform: translate(-50%,-50%);
-                font-family: $q                font-size: 24px;
+                font-family: $q;
+                font-size: 24px;
                 color: white;
                 font-weight: 400;
                 line-height: 2.5vw;
@@ -378,7 +382,8 @@ header{
                 display: block;
                 width: 90%;
                 padding-top: 2vw;
-                font-family: $q                font-size: 24px;
+                font-family: $q;
+                font-size: 24px;
                 color: white;
                 font-weight: 400;
                 line-height: 2.5vw;
@@ -417,7 +422,8 @@ header{
         position: relative;
         h2{
             text-align: center;
-            font-family: $q            font-size: 37px;
+            font-family: $q;
+            font-size: 37px;
             line-height: 1;
         }
     }
@@ -428,7 +434,8 @@ header{
         position: relative;
         left: 50%;
         transform: translateX(-50%);
-        font-family: $q        font-weight: 500;
+        font-family: $q;
+        font-weight: 500;
         .offer-data{
             color: #1ace9e;
             width: 50%;
@@ -532,7 +539,8 @@ header{
                     font-weight: 500;
                 }
                 p{
-                    font-family: $q                    font-size: 12px;
+                    font-family: $q;
+                    font-size: 12px;
                     line-height: 1.6em;
                     margin: 13px;
                 }
@@ -548,7 +556,8 @@ header{
     margin-top: 4vw;
     .pay-judul{
         h2{
-        font-family: $q        font-size: 17px;
+        font-family: $q;
+        font-size: 17px;
         font-weight: 400;
         color: #7a7a7a;
         }
@@ -728,7 +737,7 @@ header{
         text-align: center;
         color: #002b54;
         h4{
-            font-family: $qd;
+            font-family: $q;
             font-size: 37px;
             font-weight: 600;
             line-height: 1.2em;
