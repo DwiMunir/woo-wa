@@ -1770,7 +1770,7 @@ footer .foot span:nth-child(2) {
     width: 20vw;
     padding: 7px 11px;
     font-size: 3.9vw;
-    float: right;
+    float: left;
   }
   .main {
     height: 66vh;
