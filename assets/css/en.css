@@ -1,0 +1,15 @@
+@media only screen and (max-width: 414px) {
+  .data-wrapper {
+    height: 372vh;
+  }
+  .data-wrapper .data-box {
+    height: 49vh;
+  }
+  .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
+    margin-bottom: 15vh;
+  }
+  .data-offer .convert a {
+    width: 56vw;
+  }
+}
+/*# sourceMappingURL=en.css.map */

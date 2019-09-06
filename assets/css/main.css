@@ -1797,7 +1797,7 @@ footer .foot span:nth-child(2) {
     font-weight: 200;
   }
   .content {
-    height: 497vh;
+    height: 421vh;
   }
   .content .laptop {
     top: -25vw;
@@ -1878,7 +1878,7 @@ footer .foot span:nth-child(2) {
     font-size: 22px;
   }
   .data-wrapper .data-box {
-    height: 36vh;
+    height: 45vh;
     margin-bottom: 20vh;
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
