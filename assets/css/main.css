@@ -1797,7 +1797,7 @@ footer .foot span:nth-child(2) {
     font-weight: 200;
   }
   .content {
-    height: 465vh;
+    height: 497vh;
   }
   .content .laptop {
     top: -25vw;
@@ -1837,7 +1837,7 @@ footer .foot span:nth-child(2) {
     margin: 0;
     padding: 0;
     width: 90%;
-    height: 35vh;
+    height: 38vh;
     margin-bottom: 4vh;
     padding-bottom: 2vh;
     padding-top: 2vh;
@@ -1847,6 +1847,7 @@ footer .foot span:nth-child(2) {
   .content .box-wrapper .box h3 {
     margin-bottom: 5vw;
     font-weight: 600;
+    line-height: 1.2;
   }
   .content .box-wrapper .box p {
     line-height: 1.2;
@@ -1878,6 +1879,7 @@ footer .foot span:nth-child(2) {
   }
   .data-wrapper .data-box {
     height: 36vh;
+    margin-bottom: 20vh;
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
     width: 100%;
@@ -1887,6 +1889,7 @@ footer .foot span:nth-child(2) {
   .data-wrapper .data-box .left .text p, .data-wrapper .data-box .right .text p {
     font-size: 5vw;
     line-height: 1.2;
+    margin-top: 13vh;
   }
   .data-offer .judul-offer h2 {
     font-size: 21px;
@@ -1929,7 +1932,7 @@ footer .foot span:nth-child(2) {
   .data-offer .offer-box .offer-data .fitur ul li {
     height: 10vw;
     line-height: 10vw;
-    padding-left: 13vw;
+    padding-left: 9vw;
   }
   .data-offer .offer-box .offer-data .tombol-offer {
     margin-top: 5vw;
@@ -1938,6 +1941,9 @@ footer .foot span:nth-child(2) {
     width: 62%;
     height: 9vw;
     line-height: 2;
+  }
+  .data-offer .convert a {
+    width: 55vw;
   }
   .payment .icon .payment-icon {
     margin-bottom: 8vw;

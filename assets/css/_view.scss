@@ -559,7 +559,7 @@
         }
     }
     .content{
-        height: 465vh;
+        height: 497vh;
         .laptop{
             top: -25vw;
             margin: 0;
@@ -595,7 +595,7 @@
                 margin: 0;
                 padding: 0;
                 width: 90%;
-                height: 35vh;
+                height: 38vh;
                 margin-bottom: 4vh;
                 padding-bottom: 2vh;
                 padding-top: 2vh;
@@ -604,6 +604,7 @@
                 h3{
                     margin-bottom: 5vw;
                     font-weight: 600;
+                    line-height: 1.2;
                 }
                 p{
                     line-height: 1.2;
@@ -645,6 +646,7 @@
         }
         .data-box{
             height: 36vh;
+            margin-bottom: 20vh;
             .left, .right{
                 img{
                     width: 100%;
@@ -655,6 +657,7 @@
                     p{
                         font-size: 5vw;
                         line-height: 1.2;
+                        margin-top: 13vh;
                     }
                 }
             }
@@ -701,7 +704,7 @@
                         li{
                             height: 10vw;
                             line-height: 10vw;
-                            padding-left: 13vw;
+                            padding-left: 9vw;
                         }
                     }
                 }
@@ -713,6 +716,11 @@
                         line-height: 2;
                     }
                 }
+            }
+        }
+        .convert{
+            a{
+                width: 55vw;
             }
         }
     }
