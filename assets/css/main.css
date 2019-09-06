@@ -1772,9 +1772,6 @@ footer .foot span:nth-child(2) {
     font-size: 3.9vw;
     float: right;
   }
-  header nav .flag img {
-    display: none;
-  }
   .main {
     height: 66vh;
   }
@@ -1796,6 +1793,7 @@ footer .foot span:nth-child(2) {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
+    line-height: 1.2;
     font-weight: 200;
   }
   .content {
@@ -1846,6 +1844,13 @@ footer .foot span:nth-child(2) {
     padding-left: 1vh;
     padding-right: 1vh;
   }
+  .content .box-wrapper .box h3 {
+    margin-bottom: 5vw;
+    font-weight: 600;
+  }
+  .content .box-wrapper .box p {
+    line-height: 1.2;
+  }
   .element-wrap {
     height: 65vh;
   }
@@ -1881,7 +1886,7 @@ footer .foot span:nth-child(2) {
   }
   .data-wrapper .data-box .left .text p, .data-wrapper .data-box .right .text p {
     font-size: 5vw;
-    line-height: 5vw;
+    line-height: 1.2;
   }
   .data-offer .judul-offer h2 {
     font-size: 21px;
@@ -1932,7 +1937,7 @@ footer .foot span:nth-child(2) {
   .data-offer .offer-box .offer-data .tombol-offer a {
     width: 62%;
     height: 9vw;
-    line-height: 9vw;
+    line-height: 2;
   }
   .payment .icon .payment-icon {
     margin-bottom: 8vw;
@@ -1962,6 +1967,9 @@ footer .foot span:nth-child(2) {
   }
   .integrasi .wrapper-box .box-wrap .box .wrap-box {
     height: 30vh;
+  }
+  .integrasi .wrapper-box .box-wrap .box .wrap-box h3 {
+    margin-bottom: 7vw;
   }
   .integrasi .wrapper-box .box-wrap .box .wrap-box .progres {
     bottom: -14.5vh;
