@@ -2001,10 +2001,10 @@ footer .foot span:nth-child(2) {
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
     width: 100%;
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
     height: auto;
-    margin-bottom: 15vw;
+    margin-bottom: 17vw;
   }
   .data-wrapper .data-box .left .text p, .data-wrapper .data-box .right .text p {
     font-size: 5vw;
