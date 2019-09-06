@@ -191,7 +191,7 @@
         }
     }
 }
-@media only screen and (max-width:767px){
+@media only screen and (max-width:768px){
     .wrapper{
         height: 75.5vw;
     }
@@ -310,13 +310,15 @@
         }
     }
     .data-offer{
+        margin-bottom: 25vw;
         .judul-offer{
             h2{
                 font-size: 32px;
             }
         }
         .offer-box{
-            width: 60%;
+            width: 70%;
+            height: 60vw;
             margin-top: 10vw;
             .offer-data{
                 width: 75%;
@@ -328,13 +330,18 @@
                     .text-best{
                         width: 197%;
                         height: 3vw;
-                        line-height: 3vw;
+                        line-height: 3.5vw;
                     }
                 }
                 .harga{
                     margin-top: 3vw;
                     height: 8vw;
+                    line-height: 8vw;
                     font-size: 39px;
+                    span:nth-child(1){
+                        font-size: 3.2vw;
+                        top: 8px;
+                    }
                 }
                 .fitur{
                     ul{
@@ -348,6 +355,7 @@
                     }
                 }
                 .tombol-offer{
+                    margin-top: 8vw; 
                     a{
                         width: 35%;
                         height: 4vw;
@@ -355,6 +363,13 @@
                         font-weight: 600;
                     }
                 }
+            }
+        }
+        .convert{   
+            margin-top: 14vw;
+            a{
+                width: 30vw;
+                padding: 2vw 2vw;
             }
         }
     }
