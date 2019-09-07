@@ -8,13 +8,13 @@
   #english-data {
     height: calc(791vh - 5vw);
   }
-  #english-data .data-box {
-    height: 90vh;
+  #english-data #en-data {
+    height: 100vh;
   }
-  #english-data .data-box img {
+  #english-data #en-data img {
     margin-bottom: 16vh;
   }
-  #english-data .data-box .text p {
+  #english-data #en-data .text p {
     margin-top: 26vh;
   }
 }
