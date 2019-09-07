@@ -2157,10 +2157,10 @@ footer .foot span:nth-child(2) {
 
 @media only screen and (max-height: 420px) {
   .data-wrapper {
-    height: calc(1142vh - 5vw);
+    height: calc(1102vh - 5vw);
   }
   .data-wrapper .data-box {
-    height: 100vh;
+    height: 110vh;
   }
 }
 /*# sourceMappingURL=main.css.map */
