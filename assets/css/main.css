@@ -1766,8 +1766,8 @@ footer .foot span:nth-child(2) {
     width: 20vw;
   }
   header nav li img {
-    -webkit-transform: translateY(2vw);
-            transform: translateY(2vw);
+    -webkit-transform: translateY(0vw);
+            transform: translateY(0vw);
   }
   .content {
     height: 475vh;
