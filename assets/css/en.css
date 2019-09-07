@@ -14,6 +14,9 @@
   #english-data .data-box img {
     margin-bottom: 16vh;
   }
+  #english-data .data-box .text p {
+    margin-top: 26vh;
+  }
 }
 
 @media only screen and (max-width: 414px) {
