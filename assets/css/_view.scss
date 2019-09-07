@@ -990,3 +990,11 @@
         }
     }
 }
+@media only screen and(max-height:400px){
+    .data-wrapper{
+        height: calc(1142vh - 5vw);
+        .data-box{
+            height: 100vh;
+        }
+    }
+}
