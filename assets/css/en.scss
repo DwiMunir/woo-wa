@@ -3,6 +3,14 @@
         height: 455vh;
     }
 }
+@media only screen and (max-height:500px){
+    #english-data{
+        height: calc(791vh - 5vw);
+        .data-box{
+            height: 90vh;
+        }
+    }
+}
 @media only screen and (max-width:414px){
     .content{ 
         height: 510vh;
