@@ -544,7 +544,7 @@ header nav li:last-child a {
 .data-wrapper .data-shape {
   position: absolute;
   width: 100%;
-  bottom: -11vw;
+  bottom: -10vw;
   z-index: -1;
 }
 
