@@ -2172,4 +2172,29 @@ footer .foot span:nth-child(2) {
     height: 110vh;
   }
 }
+
+@media only screen and (max-height: 760px) {
+  .data-wrapper .data-box {
+    height: 40vh;
+  }
+  .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
+    width: 100%;
+    -webkit-transform: translate(-50%, 0);
+            transform: translate(-50%, 0);
+  }
+  .data-offer .offer-box {
+    width: 70%;
+  }
+  .data-offer .offer-box .offer-data {
+    width: 70%;
+  }
+  .data-offer .offer-box .offer-data .best-seller {
+    width: 39%;
+    height: 13vw;
+  }
+  .data-offer .offer-box .offer-data .best-seller .text-best {
+    -webkit-transform: rotate(47deg) translate(6%, 180%);
+            transform: rotate(47deg) translate(6%, 180%);
+  }
+}
 /*# sourceMappingURL=main.css.map */

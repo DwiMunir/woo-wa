@@ -1003,3 +1003,31 @@
         }
     }
 }
+@media only screen and (max-height:760px){
+    .data-wrapper{
+        .data-box{
+            height: 40vh;
+            .left,.right{
+                img{
+                    width: 100%;
+                    transform: translate(-50%,0);
+                }
+            }
+        }
+    }
+    .data-offer{
+        .offer-box{
+            width: 70%;
+            .offer-data{
+                width: 70%;
+                .best-seller{
+                    width: 39%;
+                    height: 13vw;
+                    .text-best{
+                        transform: rotate(47deg) translate(6%, 180%);
+                    }
+                }
+            }
+        }
+    }
+}
