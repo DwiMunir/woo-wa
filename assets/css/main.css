@@ -1766,14 +1766,20 @@ footer .foot span:nth-child(2) {
     width: 20vw;
   }
   header nav li img {
-    -webkit-transform: translateY(0vw);
-            transform: translateY(0vw);
+    -webkit-transform: translateY(2vw);
+            transform: translateY(2vw);
   }
   .content {
     height: 475vh;
   }
   .content .box-wrapper .box {
     height: 39vh;
+  }
+  .data-wrapper {
+    height: 548vh;
+  }
+  .data-wrapper .data-box {
+    height: 50vh;
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
     margin-bottom: 15vh;
@@ -1987,7 +1993,7 @@ footer .foot span:nth-child(2) {
     font-size: 5vw;
   }
   .data-wrapper {
-    height: calc(470vh - 5vw);
+    height: calc(538vh - 5vw);
   }
   .data-wrapper .data-shape {
     bottom: -11vw;
@@ -2001,7 +2007,7 @@ footer .foot span:nth-child(2) {
   }
   .data-wrapper .data-box {
     height: 45vh;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
     width: 100%;

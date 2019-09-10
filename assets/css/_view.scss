@@ -522,7 +522,7 @@
             li{
                 width: 20vw;
                 img{
-                    transform: translateY(0vw);
+                    transform: translateY(2vw);
                 }
             }
         }
@@ -536,7 +536,9 @@
         }
     }
     .data-wrapper{
+        height: 548vh;
         .data-box{
+            height: 50vh;
             .left,.right{
                 img{
                     margin-bottom: 15vh;
@@ -787,7 +789,7 @@
         }
     }
     .data-wrapper{
-        height: calc(470vh - 5vw);
+        height: calc(538vh - 5vw);
         .data-shape{
             bottom: -11vw;
         }
@@ -800,7 +802,7 @@
         }
         .data-box{
             height: 45vh;
-            margin-bottom: 10vh;
+            margin-bottom: 20vh;
             .left, .right{
                 img{
                     width: 100%;
