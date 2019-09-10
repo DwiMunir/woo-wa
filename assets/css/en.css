@@ -24,10 +24,13 @@
     height: 510vh;
   }
   #english-data {
-    height: 362vh;
+    height: 343vh;
+  }
+  #english-data .data-shape {
+    bottom: -11vw;
   }
   #english-data .data-box {
-    height: 36vh;
+    height: 34vh;
   }
   #english-data .data-box .left img, #english-data .data-box .right img {
     margin-bottom: 15vh;

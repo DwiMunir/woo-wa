@@ -787,7 +787,10 @@
         }
     }
     .data-wrapper{
-        height: calc(538vh - 5vw);
+        height: calc(470vh - 5vw);
+        .data-shape{
+            bottom: -11vw;
+        }
         .data-judul{
             padding-top: 8vh;
             margin-bottom: 8vh;
@@ -797,7 +800,7 @@
         }
         .data-box{
             height: 45vh;
-            margin-bottom: 20vh;
+            margin-bottom: 10vh;
             .left, .right{
                 img{
                     width: 100%;
