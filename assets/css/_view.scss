@@ -1214,36 +1214,35 @@
     }
 }
 
-@media only screen and (max-height: 760px) {
-    .data-wrapper {
-        .data-box {
-            height: 70vh;
+// @media only screen and (max-height: 760px) {
+//     .data-wrapper {
+//         .data-box {
+//             height: 70vh;
+//             .left, .right {
+//                 img {
+//                     width: 100%;
+//                     transform: translate(-50%);
+//                 }
+//             }
+//         }
+//     }
 
-            .left, .right {
-                img {
-                    width: 100%;
-                    transform: translate(-50%);
-                }
-            }
-        }
-    }
+//     .data-offer {
+//         .offer-box {
+//             width: 70%;
 
-    .data-offer {
-        .offer-box {
-            width: 70%;
+//             .offer-data {
+//                 width: 70%;
 
-            .offer-data {
-                width: 70%;
+//                 .best-seller {
+//                     width: 39%;
+//                     height: 13vw;
 
-                .best-seller {
-                    width: 39%;
-                    height: 13vw;
-
-                    .text-best {
-                        transform: rotate(47deg) translate(6%, 180%);
-                    }
-                }
-            }
-        }
-    }
-}
+//                     .text-best {
+//                         transform: rotate(47deg) translate(6%, 180%);
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// }
