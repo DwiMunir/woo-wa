@@ -1,117 +1,142 @@
-@media only screen and (max-width: 1024px){
-    header{
-        nav{
+@media only screen and (max-width: 1024px) {
+    header {
+        nav {
             right: 3.5vw;
-            li{
+
+            li {
                 width: 7vw;
-                img{
+
+                img {
                     width: 28px;
                     height: 28px;
                     transform: translateY(1vw);
                 }
             }
-            li:last-child{
+
+            li:last-child {
                 width: 10vw;
-                transform: translateY(.2vw);
+                transform: translateY(0.2vw);
             }
         }
     }
-    .content{
+
+    .content {
         height: 125vw;
-        .menu-button{
+
+        .menu-button {
             top: 20%;
-            a{
+
+            a {
                 font-size: 1.8vw;
                 width: 22vw;
             }
         }
-        .box-wrapper{
+
+        .box-wrapper {
             width: 90%;
-            .box{
+
+            .box {
                 height: 20vw;
             }
         }
     }
-    .element-wrap{
+
+    .element-wrap {
         height: 47vw;
-        .row{
-            .right{
-                img{
+
+        .row {
+            .right {
+                img {
                     width: 100%;
                     height: auto;
                 }
-                h1{
+
+                h1 {
                     font-size: 29px;
                     line-height: 1.3;
                 }
             }
         }
     }
-    .data-wrapper{
-         .data-box{
-              .right, .left{
-                   p{
+
+    .data-wrapper {
+        .data-box {
+            .right, .left {
+                p {
                     font-size: 17px;
-                   }
-              }
-         }
+                }
+            }
+        }
     }
-    .integrasi{
-        .wrapper-box{
+
+    .integrasi {
+        .wrapper-box {
             width: 100%;
-            .box-wrap{
-                .box{
+
+            .box-wrap {
+                .box {
                     height: 28vw;
-                    .wrap-box{
+
+                    .wrap-box {
                         width: 96%;
                         height: 27vw;
                         padding: 2% 2%;
                         position: relative;
-                        .progres{
+
+                        .progres {
                             position: absolute;
                             width: 98%;
                             bottom: 2vw;
                         }
-                        img{
+
+                        img {
                             height: auto;
                         }
                     }
                 }
             }
-            .big-box{
-                .box-left, .box-right{
+
+            .big-box {
+                .box-left, .box-right {
                     height: 33vw;
-                    .box{
+
+                    .box {
                         height: 26vw;
                     }
                 }
             }
         }
     }
-    .faq{
+
+    .faq {
         margin-bottom: 10vw;
-        .toggle{
+
+        .toggle {
             width: 90%;
-            .toggle-item{
-                .tampil{
-                    a{
+
+            .toggle-item {
+                .tampil {
+                    a {
                         width: 98%;
                     }
                 }
             }
         }
     }
-    .quest{
-        .tanya{
-            .icon_tanya{
+
+    .quest {
+        .tanya {
+            .icon_tanya {
                 margin-top: 5vw;
             }
         }
-        .media_sosial{
-            .sosial{
+
+        .media_sosial {
+            .sosial {
                 width: 60%;
-                .whatsapp, .facebook{
-                    .wa,.fb{
+
+                .whatsapp, .facebook {
+                    .wa, .fb {
                         height: 3.5vw;
                         line-height: 3.5vw;
                     }
@@ -119,71 +144,82 @@
             }
         }
     }
-    
 }
-@media only screen and  (max-width:912px){
-    header{
-        nav{
-            li:last-child{
+
+@media only screen and (max-width: 912px) {
+    header {
+        nav {
+            li:last-child {
                 width: 12vw;
             }
         }
     }
-    .main{
-        .logo{
-            img{
+
+    .main {
+        .logo {
+            img {
                 width: 12.5%;
             }
         }
-        .judul{
-            p{
+
+        .judul {
+            p {
                 font-size: 4.5vw;
             }
         }
-        .info{
+
+        .info {
             font-size: 1.9vw;
         }
     }
-    .content{
+
+    .content {
         height: 140vw;
-        .laptop{
+
+        .laptop {
             top: -18vw;
         }
-        .box-wrapper{
-            .box{
+
+        .box-wrapper {
+            .box {
                 height: 23vw;
             }
         }
     }
-    .element-wrap{
-        .row{
-            .right{
-                h1{
+
+    .element-wrap {
+        .row {
+            .right {
+                h1 {
                     font-size: 27px;
                     float: right;
-                    width: 90%
+                    width: 90%;
                 }
             }
-            .left{
-                img{
+
+            .left {
+                img {
                     width: 100%;
                 }
             }
         }
     }
-    .data-wrapper{
-        .data-judul{
-             h1{
-                 font-size: 30px;
-             }
+
+    .data-wrapper {
+        .data-judul {
+            h1 {
+                font-size: 30px;
             }
         }
-    .integrasi{
-        .wrapper-box{
-            .box-wrap{
-                .box{
+    }
+
+    .integrasi {
+        .wrapper-box {
+            .box-wrap {
+                .box {
                     height: 34vw;
-                    .wrap-box{
+
+                    .wrap-box {
                         height: 33vw;
                     }
                 }
@@ -191,60 +227,75 @@
         }
     }
 }
-@media only screen and (max-width:768px){
-    .wrapper{
+
+@media only screen and (max-width: 768px) {
+    .wrapper {
         height: 75.5vw;
     }
-    .main{
+
+    .main {
         height: 69vw;
-        .logo{
+
+        .logo {
             padding-top: 8vw;
-            img{
+
+            img {
                 width: 17.5%;
             }
         }
     }
-    header{
-        nav{
+
+    header {
+        nav {
             top: 3.5vw;
-            li:last-child{
+
+            li:last-child {
                 display: none;
             }
-            li{
+
+            li {
                 width: 12vw;
             }
-            .flag{
+
+            .flag {
                 width: 9vw;
             }
         }
     }
-    .content{
+
+    .content {
         height: 475vw;
-        .laptop{
-            img{
+
+        .laptop {
+            img {
                 width: 90%;
                 padding: 0;
             }
         }
-        .menu-button{
+
+        .menu-button {
             width: 90%;
             top: 7%;
             padding-top: 12vw;
-            a{
+
+            a {
                 font-size: 2.5vw;
                 height: 5vw;
                 line-height: 5vw;
                 width: 25vw;
             }
         }
-        .judul-content{
+
+        .judul-content {
             top: 7%;
         }
-        .box-wrapper{
+
+        .box-wrapper {
             width: 98%;
             top: 5%;
             padding-top: 13vw;
-            .box{
+
+            .box {
                 height: 39vw;
                 width: 80%;
                 position: relative;
@@ -253,23 +304,28 @@
             }
         }
     }
-    .element-wrap{
+
+    .element-wrap {
         height: 81vw;
-        .row{
-            .left{
+
+        .row {
+            .left {
                 float: none;
                 width: 100%;
-                img{
+
+                img {
                     width: 70%;
                     margin: auto;
                     display: block;
                 }
             }
-            .right{
+
+            .right {
                 float: none;
                 width: 100%;
                 height: 70vw;
-                h1{
+
+                h1 {
                     float: none;
                     transform: none;
                     width: 100%;
@@ -278,13 +334,15 @@
             }
         }
     }
-    .widget-wrap{
-        h2{
+
+    .widget-wrap {
+        h2 {
             width: 95%;
             font-size: 4vw;
         }
-        .widget-pay{
-            .icon-pay{
+
+        .widget-pay {
+            .icon-pay {
                 display: block;
                 width: 90%;
                 height: 12vw;
@@ -292,71 +350,87 @@
                 transform: translateX(-50%);
                 left: 50%;
                 margin-bottom: 2vw;
-                img{
+
+                img {
                     width: 60%;
                 }
             }
         }
-        .widget-vid{
-            #vid{
+
+        .widget-vid {
+            #vid {
                 width: 90%;
             }
         }
     }
-    .data-wrapper{
+
+    .data-wrapper {
         height: calc(167vw - 5vw);
-        .data-judul{
+
+        .data-judul {
             padding-top: 3vw;
         }
     }
-    .data-offer{
+
+    .data-offer {
         margin-bottom: 25vw;
-        .judul-offer{
-            h2{
+
+        .judul-offer {
+            h2 {
                 font-size: 32px;
             }
         }
-        .offer-box{
+
+        .offer-box {
             width: 70%;
             height: 60vw;
             margin-top: 10vw;
-            .offer-data{
+
+            .offer-data {
                 width: 75%;
                 height: 65vw;
                 top: 60%;
-                .best-seller{
+
+                .best-seller {
                     width: 29%;
                     height: 13vw;
-                    .text-best{
+
+                    .text-best {
                         width: 197%;
                         height: 3vw;
                         line-height: 3.5vw;
                     }
                 }
-                .harga{
+
+                .harga {
                     margin-top: 3vw;
                     height: 8vw;
                     line-height: 8vw;
                     font-size: 39px;
-                    span:nth-child(1){
+
+                    span:nth-child(1) {
                         font-size: 3.2vw;
                         top: 8px;
                     }
                 }
-                .fitur{
-                    ul{
-                        margin-top: 2vw;  
-                        li{
+
+                .fitur {
+                    ul {
+                        margin-top: 2vw;
+
+                        li {
                             text-align: left;
                             height: 5vw;
                             line-height: 5vw;
                             padding-left: 3vw;
-                        }  
+                        }
                     }
                 }
-                .tombol-offer{
-                    margin-top: 8vw; 
-                    a{
+
+                .tombol-offer {
+                    margin-top: 8vw;
+
+                    a {
                         width: 35%;
                         height: 4vw;
                         line-height: 4vw;
@@ -365,93 +439,116 @@
                 }
             }
         }
-        .convert{   
+
+        .convert {
             margin-top: 14vw;
-            a{
+
+            a {
                 width: 30vw;
                 padding: 2vw 2vw;
             }
         }
     }
-    .payment{
+
+    .payment {
         margin-top: 22vw;
-        .pay-judul{
+
+        .pay-judul {
             margin-bottom: 3vw;
-            h2{
+
+            h2 {
                 font-size: 22px;
             }
         }
-        .icon{
-            .payment-icon{
+
+        .icon {
+            .payment-icon {
                 display: block;
                 width: 100%;
                 position: relative;
                 left: 50%;
                 transform: translateX(-50%);
                 margin-bottom: 4vw;
-                img{
+
+                img {
                     width: 20vw;
                 }
-            }   
+            }
         }
-        .icon-all{
+
+        .icon-all {
             margin-top: 8vw;
-            img{
+
+            img {
                 width: 90%;
             }
         }
     }
-    .integrasi{
+
+    .integrasi {
         height: 540vw;
-        .wrapper-box{
+
+        .wrapper-box {
             width: 100%;
             left: 0;
             transform: none;
-            .box-wrap{
+
+            .box-wrap {
                 width: 75%;
-                .box{
+
+                .box {
                     float: none;
                     width: 100%;
                     height: 45vw;
                     margin-bottom: 3vw;
-                    .wrap-box{
+
+                    .wrap-box {
                         height: 39vw;
-                        img{
+
+                        img {
                             height: 60%;
                             width: auto;
                         }
-                        .progres{
+
+                        .progres {
                             bottom: 0;
-                            .bar{
+
+                            .bar {
                                 height: 2vw;
                             }
                         }
-                    }    
+                    }
                 }
             }
-            .big-box{
+
+            .big-box {
                 width: 100%;
-                .box-left,.box-right{
+
+                .box-left, .box-right {
                     float: none;
                     width: 75%;
                     height: 43vw;
                     position: relative;
                     left: 50.5%;
                     transform: translateX(-50%);
-                    .box{
+
+                    .box {
                         height: 43vw;
                     }
                 }
             }
         }
     }
-    .quest{
-        .media_sosial{
+
+    .quest {
+        .media_sosial {
             margin-bottom: 5vw;
-            .sosial{
+
+            .sosial {
                 width: 90%;
-                .facebook,.whatsapp{
-                    .wa, .fb{
+
+                .facebook, .whatsapp {
+                    .wa, .fb {
                         height: 4vw;
                         line-height: 4vw;
                     }
@@ -459,21 +556,26 @@
             }
         }
     }
-    .data-wrapper{
+
+    .data-wrapper {
         height: calc(709vh - 5vw);
+
         // height: calc(950vh - 5vw);
-        .data-judul{
+        .data-judul {
             margin-bottom: 5vw;
         }
-        .data-box{
+
+        .data-box {
             height: 60vh;
             margin-bottom: 20vw;
             left: 50%;
             transform: translateX(-50%);
-            .left,.right{
+
+            .left, .right {
                 float: none;
                 width: 100%;
-                img{
+
+                img {
                     width: 100%;
                     height: auto;
                     position: unset;
@@ -482,10 +584,12 @@
                     margin: auto;
                     margin-bottom: 8vw;
                 }
-                .text{
+
+                .text {
                     display: block;
                     margin-bottom: 3vw;
-                    p{
+
+                    p {
                         font-family: "Varela Round",Sans-serif;
                         font-size: 18px;
                         color: white;
@@ -493,90 +597,110 @@
                         line-height: 5vw;
                     }
                 }
-                &>p{
+
+                & > p {
                     display: none;
                 }
             }
-            .a{
+
+            .a {
                 display: none;
             }
         }
-        .data-box:nth-child{
-            .right:nth-child(1){
-                display: none;  
+
+        .data-box:nth-child {
+            .right:nth-child(1) {
+                display: none;
             }
         }
     }
-    .back{
+
+    .back {
         bottom: 5vh;
     }
 }
-@media only screen and (max-height:500px){
-    .data-wrapper{
+
+@media only screen and (max-height: 500px) {
+    .data-wrapper {
         height: calc(957vh - 5vw);
     }
 }
-@media only screen and (max-width:500px){
-    header{
-        nav{
-            li{
+
+@media only screen and (max-width: 500px) {
+    header {
+        nav {
+            li {
                 width: 20vw;
-                img{
+
+                img {
                     transform: translateY(2vw);
                 }
             }
         }
     }
-    .content{
+
+    .content {
         height: 475vh;
-        .box-wrapper{
-            .box{
+
+        .box-wrapper {
+            .box {
                 height: 39vh;
             }
         }
     }
-    .data-wrapper{
+
+    .data-wrapper {
         height: 548vh;
-        .data-box{
+
+        .data-box {
             height: 50vh;
-            .left,.right{
-                img{
+
+            .left, .right {
+                img {
                     margin-bottom: 15vh;
                 }
             }
         }
     }
-    .data-offer{
-        .offer-box{
+
+    .data-offer {
+        .offer-box {
             width: 90%;
             height: 75vh;
-            .offer-data{
+
+            .offer-data {
                 width: 90%;
                 height: 80vh;
-                .best-seller{
+
+                .best-seller {
                     width: 29%;
                     height: 16vh;
-                    .text-best{
+
+                    .text-best {
                         width: 192%;
                         height: 5vw;
                         line-height: 2;
                     }
                 }
-                .bulan{
+
+                .bulan {
                     padding-top: 16vh;
                 }
-                .harga{
-                    span:nth-child(1){
-                        font-size: 4.2vw;
-                        top:1px;
 
+                .harga {
+                    span:nth-child(1) {
+                        font-size: 4.2vw;
+                        top: 1px;
                     }
                 }
-                .fitur{
+
+                .fitur {
                     margin-top: 4vh;
-                    ul{
+
+                    ul {
                         width: 85%;
-                        li{
+
+                        li {
                             height: 7vw;
                             line-height: 2;
                         }
@@ -584,41 +708,52 @@
                 }
             }
         }
-        .convert{
+
+        .convert {
             margin-top: 14vh;
-            a{
+
+            a {
                 width: 50vw;
             }
         }
     }
-    .integrasi{
+
+    .integrasi {
         height: 600vh;
-        .wrapper-box{
-            .box-wrap{
+
+        .wrapper-box {
+            .box-wrap {
                 width: 85%;
-                .box{
+
+                .box {
                     height: 50vh;
-                    .wrap-box{
-                        h3{
+
+                    .wrap-box {
+                        h3 {
                             margin-bottom: 2vh;
                         }
-                        img{
+
+                        img {
                             width: 35%;
                             height: auto;
                         }
-                        .progres{
+
+                        .progres {
                             bottom: -14vh;
                         }
                     }
                 }
             }
-            .big-box{
-                .box-left, .box-right{
+
+            .big-box {
+                .box-left, .box-right {
                     width: 85%;
                     height: 47vh;
-                    .box{
+
+                    .box {
                         height: 47vh;
-                        h3{
+
+                        h3 {
                             margin-bottom: 2vh;
                         }
                     }
@@ -626,27 +761,31 @@
             }
         }
     }
-    .faq{
-        .faq-judul{
+
+    .faq {
+        .faq-judul {
             margin-bottom: 8vh;
         }
-        .toggle{
-            .toggle-item{
-                .tampil{
+
+        .toggle {
+            .toggle-item {
+                .tampil {
                     padding: 2vh 3vw;
                 }
             }
         }
     }
-    .quest{
-        .media_sosial{
-            .sosial{
-                .whatsapp, .facebook{
+
+    .quest {
+        .media_sosial {
+            .sosial {
+                .whatsapp, .facebook {
                     display: block;
                     float: none;
                     margin: auto;
                     margin-bottom: 3vh;
-                    .wa,.fb{
+
+                    .wa, .fb {
                         margin: auto;
                         width: 100%;
                         height: 6vh;
@@ -656,28 +795,33 @@
             }
         }
     }
-    footer{
+
+    footer {
         height: 7vh;
         margin-bottom: 12vh;
     }
-    .back{
+
+    .back {
         height: 5vh;
-        a{
+
+        a {
             height: 5vw;
             line-height: 5vw;
             padding: 5px 5vw;
         }
     }
 }
-@media only screen and (max-width:414px){
-    .wrapper{
+
+@media only screen and (max-width: 414px) {
+    .wrapper {
         height: 70vh;
         background-size: 140% 100%;
         background-repeat: no-repeat;
     }
-    header{
-        nav{
-            li{
+
+    header {
+        nav {
+            li {
                 width: 20vw;
                 padding: 7px 11px;
                 font-size: 3.9vw;
@@ -685,22 +829,27 @@
             }
         }
     }
-    .main{
-        height:66vh;
-        .judul{
+
+    .main {
+        height: 66vh;
+
+        .judul {
             width: 98%;
-            p{
+
+            p {
                 font-size: 7vw;
                 line-height: 7vw;
             }
         }
-        .logo{
-            img{
+
+        .logo {
+            img {
                 width: 26.5%;
                 margin-top: 8vw;
             }
         }
-        .info{
+
+        .info {
             font-size: 4vw;
             width: 90%;
             position: relative;
@@ -708,22 +857,26 @@
             transform: translateX(-50%);
             line-height: 1.2;
             font-weight: 200;
-
         }
     }
-    .content{
+
+    .content {
         height: 565vh;
-        .laptop{
+
+        .laptop {
             top: -25vw;
             margin: 0;
-            img{
+
+            img {
                 width: 100%;
             }
         }
-        .menu-button{
+
+        .menu-button {
             top: 7.5%;
             display: block;
-            .menu-btn{
+
+            .menu-btn {
                 width: 90%;
                 margin-bottom: 1.5vh;
                 height: 6vh;
@@ -736,15 +889,18 @@
                 margin-left: 0;
             }
         }
-        .judul-content{
+
+        .judul-content {
             font-size: 5.3vw;
             top: 5%;
         }
-        .box-wrapper{
+
+        .box-wrapper {
             width: 100%;
             left: 0;
             transform: none;
-            .box{
+
+            .box {
                 margin: 0;
                 padding: 0;
                 width: 90%;
@@ -754,120 +910,146 @@
                 padding-top: 2vh;
                 padding-left: 1vh;
                 padding-right: 1vh;
-                h3{
+
+                h3 {
                     margin-bottom: 5vw;
                     font-weight: 600;
                     line-height: 1.2;
                 }
-                p{
+
+                p {
                     line-height: 1.2;
                 }
             }
         }
     }
-    .element-wrap{
+
+    .element-wrap {
         height: 65vh;
-        .row{
-            .left{
+
+        .row {
+            .left {
                 height: 32vh;
-                img{
+
+                img {
                     width: 90%;
                 }
             }
-            .right{
-                h1{
-                font-size: 4.3vw;
+
+            .right {
+                h1 {
+                    font-size: 4.3vw;
                 }
             }
         }
     }
-    .widget-wrap{
-        .text-why{
-            h2{
+
+    .widget-wrap {
+        .text-why {
+            h2 {
                 font-size: 5vw;
             }
         }
     }
-    .data-wrapper{
+
+    .data-wrapper {
         height: calc(538vh - 5vw);
-        .data-shape{
+
+        .data-shape {
             bottom: -11vw;
         }
-        .data-judul{
+
+        .data-judul {
             padding-top: 8vh;
             margin-bottom: 8vh;
-            h1{
+
+            h1 {
                 font-size: 22px;
             }
         }
-        .data-box{
+
+        .data-box {
             height: 45vh;
             margin-bottom: 20vh;
-            .left, .right{
-                img{
+
+            .left, .right {
+                img {
                     width: 100%;
                     transform: scale(1.2);
                     height: auto;
                     margin-bottom: 17vw;
                 }
-                .text{
-                    p{
+
+                .text {
+                    p {
                         font-size: 5vw;
                         line-height: 1.2;
                         margin-top: 13vh;
                     }
                 }
             }
-
         }
     }
-    .data-offer{
-        .judul-offer{
-            h2{
+
+    .data-offer {
+        .judul-offer {
+            h2 {
                 font-size: 21px;
             }
         }
-        .offer-box{
+
+        .offer-box {
             width: 100%;
             height: 70vh;
             margin-top: 16vw;
-            .offer-data{
+
+            .offer-data {
                 width: 80%;
                 height: 80vh;
                 top: 35vh;
-                .best-seller{
+
+                .best-seller {
                     width: 40%;
                     height: 20vh;
-                    .text-best{
+
+                    .text-best {
                         height: 6vw;
                         line-height: 6vw;
                         font-size: 3vw;
                     }
                 }
-                .bulan{
+
+                .bulan {
                     padding-top: 17vw;
-                    h2{
+
+                    h2 {
                         font-size: 30px;
                     }
                 }
-                .harga{
+
+                .harga {
                     margin-top: 0;
                     height: 15vw;
                 }
-                .fitur{
+
+                .fitur {
                     margin-top: 3vh;
-                    ul{
+
+                    ul {
                         width: 90%;
-                        li{
+
+                        li {
                             height: 10vw;
                             line-height: 10vw;
                             padding-left: 7vw;
                         }
                     }
                 }
-                .tombol-offer{
+
+                .tombol-offer {
                     margin-top: 5vw;
-                    a{
+
+                    a {
                         width: 62%;
                         height: 9vw;
                         line-height: 2;
@@ -875,99 +1057,121 @@
                 }
             }
         }
-        .convert{
-            a{
+
+        .convert {
+            a {
                 width: 55vw;
             }
         }
     }
-    .payment{
-        .icon{
-            .payment-icon{
+
+    .payment {
+        .icon {
+            .payment-icon {
                 margin-bottom: 8vw;
-                img{
+
+                img {
                     width: 30vw;
                 }
             }
         }
-        .icon-all{
-            img{
+
+        .icon-all {
+            img {
                 width: 100%;
                 height: 9vh;
             }
         }
     }
-    .integrasi{
+
+    .integrasi {
         height: 648vh;
         margin-top: 20vh;
-        .judul{
+
+        .judul {
             margin-bottom: 8vh;
-            h2{
+
+            h2 {
                 font-size: 28px;
             }
         }
-        .wrapper-box{
-            .box-wrap{
+
+        .wrapper-box {
+            .box-wrap {
                 width: 90%;
-                .box{
+
+                .box {
                     margin: 0 0 5vh 0;
                     height: 55vh;
-                    .wrap-box{
+
+                    .wrap-box {
                         height: 30vh;
-                        h3{
+
+                        h3 {
                             margin-bottom: 7vw;
                         }
-                        .progres{
+
+                        .progres {
                             bottom: -20.5vh;
-                            .bar{
+
+                            .bar {
                                 height: 2vh;
                             }
                         }
                     }
                 }
             }
-            .big-box{
-                .box-left,.box-right{
+
+            .big-box {
+                .box-left, .box-right {
                     width: 90%;
                     height: 43vh;
-                    .box{
+
+                    .box {
                         height: 40vh;
                     }
                 }
             }
         }
     }
-    .faq{
-        .faq-judul{
+
+    .faq {
+        .faq-judul {
             margin-bottom: 7vh;
         }
-        .toggle{
-            .toggle-item{
+
+        .toggle {
+            .toggle-item {
                 margin-bottom: 2vh;
-                .tampil{
+
+                .tampil {
                     padding: 3vh 3vh;
-                    a{
+
+                    a {
                         width: 95%;
                     }
                 }
             }
         }
     }
-    .quest{
-        .tanya{
-            .icon_tanya{
-                i{
+
+    .quest {
+        .tanya {
+            .icon_tanya {
+                i {
                     font-size: 6.5vw;
                 }
             }
         }
-        .media_sosial{
-            .sosial{
-                .facebook,.whatsapp{
+
+        .media_sosial {
+            .sosial {
+                .facebook, .whatsapp {
                     float: none;
                     width: 100%;
                     margin-bottom: 2vh;
-                    .wa,.fb{
+
+                    .wa, .fb {
                         height: 5vh;
                         line-height: 5vh;
                     }
@@ -975,54 +1179,67 @@
             }
         }
     }
-    footer{
+
+    footer {
         width: 98%;
         height: 10vh;
         margin-bottom: 8vh;
         padding: 0 1%;
-        .foot{
-            span{
+
+        .foot {
+            span {
                 font-size: 12px;
             }
         }
     }
-    .back{
+
+    .back {
         height: 8vh;
-        a{
+
+        a {
             height: 5vh;
             line-height: 5vh;
             padding: 5px 8vw;
         }
     }
 }
-@media only screen and(max-height:500px){
-    .data-wrapper{
+
+@media only screen and (max-height: 500px) {
+    .data-wrapper {
         height: calc(1302vh - 5vw);
-        .data-box{
+
+        .data-box {
             height: 110vh;
         }
     }
 }
-@media only screen and (max-height:760px){
-    .data-wrapper{
-        .data-box{
-            height: 40vh;
-            .left,.right{
-                img{
+
+@media only screen and (max-height: 760px) {
+    .data-wrapper {
+        .data-box {
+            height: 70vh;
+
+            .left, .right {
+                img {
                     width: 100%;
+                    transform: translate(-50%);
                 }
             }
         }
     }
-    .data-offer{
-        .offer-box{
+
+    .data-offer {
+        .offer-box {
             width: 70%;
-            .offer-data{
+
+            .offer-data {
                 width: 70%;
-                .best-seller{
+
+                .best-seller {
                     width: 39%;
                     height: 13vw;
-                    .text-best{
+
+                    .text-best {
                         transform: rotate(47deg) translate(6%, 180%);
                     }
                 }
