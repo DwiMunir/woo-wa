@@ -2179,8 +2179,6 @@ footer .foot span:nth-child(2) {
   }
   .data-wrapper .data-box .left img, .data-wrapper .data-box .right img {
     width: 100%;
-    -webkit-transform: translate(-50%, 0);
-            transform: translate(-50%, 0);
   }
   .data-offer .offer-box {
     width: 70%;
