@@ -1213,7 +1213,18 @@
         }
     }
 }
-
+@media only screen and (max-width: 1024px){
+    .data-wrapper {
+        .data-box {
+            .left, .right {
+                img {
+                    width: 100%;
+                    transform: translate(-50%);
+                }
+            }
+        }
+    }
+}
 // @media only screen and (max-height: 760px) {
 //     .data-wrapper {
 //         .data-box {
