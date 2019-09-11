@@ -583,7 +583,6 @@
                     display: block;
                     margin: auto;
                     margin-bottom: 8vw;
-                    transform: translate(0%);
                 }
 
                 .text {
@@ -659,7 +658,6 @@
             .left, .right {
                 img {
                     margin-bottom: 15vh;
-                    transform: translate(0%);
                 }
             }
         }
@@ -977,7 +975,7 @@
             .left, .right {
                 img {
                     width: 100%;
-                    transform: scale(1.2) translate(0%);
+                    transform: scale(1.2);
                     height: auto;
                     margin-bottom: 17vw;
                 }
@@ -1221,7 +1219,6 @@
             .left, .right {
                 img {
                     width: 100%;
-                    transform: translate(-50%);
                 }
             }
         }
