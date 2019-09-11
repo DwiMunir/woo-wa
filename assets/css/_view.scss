@@ -392,13 +392,14 @@
                 top: 60%;
 
                 .best-seller {
-                    width: 29%;
-                    height: 13vw;
+                    width: 40%;
+                    height: 18vw;
 
                     .text-best {
                         width: 197%;
                         height: 3vw;
                         line-height: 3.5vw;
+                        transform: rotate(47deg) translate(3%, 185%);
                     }
                 }
 
@@ -417,6 +418,7 @@
                 .fitur {
                     ul {
                         margin-top: 2vw;
+                        width: 80%;
 
                         li {
                             text-align: left;
