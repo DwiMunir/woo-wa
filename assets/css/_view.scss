@@ -583,6 +583,7 @@
                     display: block;
                     margin: auto;
                     margin-bottom: 8vw;
+                    transform: translate(0%);
                 }
 
                 .text {
@@ -658,6 +659,7 @@
             .left, .right {
                 img {
                     margin-bottom: 15vh;
+                    transform: translate(0%);
                 }
             }
         }
